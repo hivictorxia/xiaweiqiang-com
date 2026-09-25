@@ -1,0 +1,4 @@
+baseURL = 'https://xiaweiqiang.com/'
+languageCode = 'zh-cn'
+title = '夏伟强的个人网站'
+theme = 'PaperMod'
