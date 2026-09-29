@@ -15,9 +15,10 @@ theme = 'PaperMod'
   disableThemeToggle = true        # 关闭黑夜/白天模式切换按钮，保持极简视觉一致性
   ShowReadingTime = false           # 显示预计阅读时间
   ShowShareButtons = false         # 隐藏社交分享按钮，去除页面杂音
-  ShowPostNavLinks = true          # 文章底部显示“上一篇/下一篇”
+  ShowPostNavLinks = false          # 文章底部显示“上一篇/下一篇”
   disableSpecial1stPost = true      # 关闭首篇文章的特殊样式
   DateFormat = "2006/01/02"       #   把日期格式定义为 YYYY/MM/DD
+  comments = true                      # 打开评论区的总开关，让作者卡片显示出来
 
 # 控制左上角显示的文字
   [params.label]

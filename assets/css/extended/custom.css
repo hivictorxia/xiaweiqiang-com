@@ -2,43 +2,35 @@
    全局字体与颜色基础设置
    ========================================= */
 body {
-    /* 采用最优秀的跨平台中文无衬线字体栈，确保在苹果和Windows上都极其清晰 */
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
-    color: #2c2c2c; /* 拒绝刺眼的纯黑(#000000)，采用高级的深灰，适合长期阅读 */
-    background-color: #fcfcfc; /* 极浅的暖灰白底色，降低屏幕反光 */
+    color: #2c2c2c;
+    background-color: #fcfcfc;
+    overflow-x: hidden;
 }
 
-/* =========================================
-   文章正文 (核心阅读区) 排版设计
-   ========================================= */
 .post-content {
-    font-size: 16px;            /* 字号调大，默认通常是16px，18px更具沉浸感 */
-    line-height: 1.85;          /* 黄金中文行距，让文字呼吸感十足 */
-    letter-spacing: 0.04em;     /* 微调字间距，避免中文字符挤在一起 */
-    text-align: justify;        /* 【关键】两端对齐。让文字左右边缘像刀切一样整齐，极具出版物的高级感 */
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0.04em;
+    text-align: justify;
 }
 
-/* 段落之间的留白 */
 .post-content p {
-    margin-bottom: 1.6em;       /* 段落间距拉大，区分逻辑层级，避免文字墙 */
+    margin-bottom: 1.6em;
 }
 
-/* =========================================
-   各级标题 (H1, H2, H3) 的层次感设计
-   ========================================= */
 h1, h2, h3, h4, h5, h6 {
-    color: #1a1a1a;             /* 标题颜色比正文更深，形成视觉锚点 */
-    font-weight: 600;           /* 标题加粗 */
+    color: #1a1a1a;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 2.5em;          /* 标题上方留出巨大空白，提示新章节开始 */
-    margin-bottom: 1em;         /* 标题下方间距适中，紧贴其管辖的正文 */
+    margin-top: 2.5em;
+    margin-bottom: 1em;
 }
 
-/* 独立针对大标题 的优化 */
 .post-content h1 {
     font-size: 25px;
-    border-bottom: 1px solid #eaeaea; /* 标题下方加一条极淡的分割线，增加结构感 */
+    border-bottom: 1px solid #eaeaea;
     padding-bottom: 10px;
 }
 
@@ -47,104 +39,246 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10px;
 }
 
-/* =========================================
-   引用块 (Blockquote) 样式优化
-   （你在写巴菲特金句时会经常用到）
-   ========================================= */
 .post-content blockquote {
     margin: 2em 0;
     padding: 15px 25px;
     background-color: #f5f5f5;
-    border-left: 4px solid #555555; /* 极简的左侧提示线 */
+    border-left: 4px solid #555555;
     color: #555555;
     font-size: 16px;
     font-style: normal;
 }
 
-
 /* =========================================
-   极致净化网页底部，只保留自己的版权信息
+   极致净化网页底部
    ========================================= */
 .footer {
-    font-size: 0 !important; /* 让游离的符号和空格瞬间隐身 */
+    font-size: 0 !important;
 }
 .footer span:first-child {
-    font-size: 14px;         /* 恢复你自己的 ©xiaweiqiang 文字大小 */
+    font-size: 14px;
 }
 .footer span:not(:first-child) {
-    display: none !important; /* 强制隐藏后面所有的内容（包括 Powered by） */
+    display: none !important;
 }
 
-
-
-
 /* =========================================
-   极简暗色导航栏 (致敬 Adham Dannaway)
+   极简暗色导航栏
    ========================================= */
-
-/* 1. 顶部色块：纯粹背景，没有任何杂质 */
 .header {
-    background-color: #2c3e50 !important;
-     /* #1F4954；#111111 */
+    background-color: #314964 !important;
     border-bottom: none !important;
-    box-shadow: none !important; /* 去除所有阴影，保持绝对的扁平干净 */
-    /* 核心精髓 2：页面往下滚动时，导航栏永远吸附在顶部 */
+    box-shadow: none !important;
     position: sticky !important;
     top: 0;
     z-index: 999;
 }
 
-/* 2. 左侧 Logo ("首页")：默认最高亮度，悬停变暗 */
 .logo a {
-    color: #FFFFFF !important;       /* 默认纯白 */
+    color: #FFFFFF !important;
     font-size: 18px !important;
     font-weight: 500 !important;
     transition: color 0.2s ease !important;
 }
 
 .logo a:hover {
-    color: rgba(255, 255, 255, 0.5) !important; /* 鼠标放上去，亮度减半 */
+    color: rgba(255, 255, 255, 0.5) !important;
 }
 
-/* 3. 右侧菜单项：默认半透明内敛，悬停点亮 */
 #menu li a {
-    color: rgba(255, 255, 255, 0.6) !important; /* 默认状态：低调的灰白色，不抢 Logo 的视觉重心 */
+    color: rgba(255, 255, 255, 0.6) !important;
     font-size: 16px !important;
     font-weight: 500 !important;
-    background: transparent !important;         /* 绝对不允许出现任何底色块 */
-    transition: color 0.2s ease !important;     /* 仅保留颜色明暗的丝滑过渡 */
+    background: transparent !important;
+    transition: color 0.2s ease !important;
 }
 
 #menu li a:hover {
-    color: #FFFFFF !important;                  /* 鼠标放上去，瞬间点亮至纯白 */
+    color: #FFFFFF !important;
 }
 
+/* =========================================
+   文章巨型色块标题
+   ========================================= */
+.post-title {
+    background-color: #314964;
+    color: #ffffff !important;
+    font-weight: 800;
+    line-height: 1.3;
+    font-size: clamp(32px, 5vw, 52px) !important;
+    padding: 120px 20px;
+    margin-bottom: 60px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 100vw;
+    border-radius: 0; 
+    margin-top: -50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+}
+
+/* =========================================
+   文章底部的作者卡片 (Tobias Ahlin 50/50 色块拼图版)
+   ========================================= */
+
+/* 1. 卡片外框：变成一个带圆角的整体 */
+.author-section {
+    display: flex;
+    margin: 80px 0 60px;          /* 距离正文远一点，留出呼吸感 */
+    border-radius: 16px;          /* 大圆角，非常现代的设计语言 */
+    overflow: hidden;             /* 【关键】切掉多余的边角，让照片和色块完美融合在圆角里 */
+    background-color: #1f4954;    /* 左侧色块的底色：非常高级的极浅灰蓝色 */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04); /* 加一点悬浮阴影 */
+}
+
+/* 2. 左侧文字区域：占一半大小 */
+.author-content {
+    flex: 1;                      /* 【关键】强制占据刚好 50% 的宽度 */
+    padding: 60px 50px;           /* 文字周围的留白 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      /* 让文字在色块中绝对垂直居中 */
+}
+
+.author-content h2 {
+    font-size: 32px !important;
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.author-content p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.author-links a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff; /* 底部加一条下划线 */
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+}
+
+.author-links a:hover {
+    color: #ffffff;
+}
+
+/* 3. 右侧图片区域：也占一半大小，且高度自动对齐 */
+.author-avatar {
+    flex: 1;                      /* 【关键】占据另外 50% 的宽度，和左侧完全等大 */
+    position: relative;           /* 为内部照片的绝对定位做准备 */
+}
+
+/* 【核心黑科技】：不管左侧文字有多少，右侧图片永远填充满这个 50% 的盒子 */
+.author-avatar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;            /* 保证照片被完美裁切，填满且不变形 */
+    border-radius: 0;             /* 取消之前的圆形，变成填满盒子的方形 */
+    box-shadow: none;
+}
+
+/* 4. 手机屏幕自动适配：上下堆叠 */
+@media (max-width: 768px) {
+    .author-section {
+        /* 在手机上，照片在上面，文字色块在下面 */
+        flex-direction: column-reverse; 
+    }
+    .author-content {
+        padding: 40px 30px;
+        text-align: center;       /* 手机上文字居中 */
+    }
+    .author-avatar {
+        width: 100%;
+        min-height: 300px;        /* 手机上强制给照片一个高度，防止因为没有文字撑开而消失 */
+    }
+}
 
 
 
 /* =========================================
-   文章巨型色块标题 - 全屏贴边版 (Full Bleed)
+   全新文章底部导航 (PREV / NEXT 卡片设计)
    ========================================= */
 
-.post-title {
-    background-color: #2c3e50;
-    color: #ffffff !important;
-    text-align: center !important;  /* 修复：去掉了 center 后面的分号 */
-    font-weight: 800;
-    line-height: 1.3;
-    font-size: clamp(32px, 5vw, 52px) !important;
-    
-    /* 上下留白 */
-    padding: 120px 20px;
+.custom-paginav {
+    display: flex;
+    gap: 20px;                    /* 两个卡片之间的间距 */
+    margin-top: 60px;             /* 距离上方的作者卡片留出充足呼吸感 */
     margin-bottom: 60px;
-    
-    /* 强制全屏宽度的黑科技 */
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
-    border-radius: 0; 
-    
-    /* 抵消 PaperMod 默认的顶部间距，让色块紧紧贴住上面的导航栏 */
-    margin-top: -50px; 
+}
+
+/* 导航卡片基础设计 */
+.nav-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;    /* 极细的灰色边框 */
+    border-radius: 12px;          /* 呼应整体的圆角设计 */
+    text-decoration: none;
+    transition: all 0.3s ease;    /* 丝滑的交互动画 */
+}
+
+/* 悬停交互：边框变色并微微浮起 */
+.nav-card:hover {
+    border-color: #314964;        /* 鼠标悬停时，边框变成你顶栏的深蓝色 */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+/* 空白占位卡（当没有上一篇/下一篇时保持排版不乱） */
+.empty-card {
+    background-color: transparent;
+    border: none;
+}
+
+/* 提示文字 (如“← 较新文章”) */
+.nav-label {
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* 文章真实标题 */
+.nav-title {
+    font-size: 18px;
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* 左右对齐细节 */
+.prev-card {
+    text-align: left;
+}
+.next-card {
+    text-align: right;
+    align-items: flex-end;
+}
+
+/* 手机屏幕自动适配：从左右并排折叠为上下排列 */
+@media (max-width: 768px) {
+    .custom-paginav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .nav-card {
+        text-align: left;
+        align-items: flex-start;
+    }
 }
