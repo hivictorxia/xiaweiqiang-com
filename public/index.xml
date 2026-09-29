@@ -1,20 +1,101 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>夏伟强的个人网站</title>
+    <title>夏卫强 | Victor</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on 夏伟强的个人网站</description>
+    <description>Recent content on 夏卫强 | Victor</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 24 Sep 2026 10:00:00 +0800</lastBuildDate>
+    <copyright>©夏卫强</copyright>
+    <lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Thu, 24 Sep 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;这是我的第一篇测试文章。&lt;/p&gt;
-&lt;p&gt;用来记录关于商业、投资和人生设计的思考。&lt;/p&gt;</description>
+      <title>商业的世界</title>
+      <link>http://localhost:1313/posts/zhuanlan-01/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/zhuanlan-01/</guid>
+      <description>&lt;h2 id=&#34;这是测试&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
+&lt;h2 id=&#34;这是测试-1&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
+&lt;h2 id=&#34;这是测试-2&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>知识星球</title>
+      <link>http://localhost:1313/xingqiu/</link>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/xingqiu/</guid>
+      <description>&lt;p&gt;这里写你的知识星球介绍文字&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>世界的脉络</title>
+      <link>http://localhost:1313/posts/zhuanlan-02/</link>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/zhuanlan-02/</guid>
+      <description>&lt;h2 id=&#34;这是测试&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
+&lt;h2 id=&#34;这是测试-1&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>有为</title>
+      <link>http://localhost:1313/youwei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/youwei/</guid>
+      <description>&lt;p&gt;在这里，我将长期的研究与思考沉淀为三个核心专栏。&lt;/p&gt;
+&lt;p&gt;每周写一篇文章。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>核心专栏：构建底层的商业认知</title>
+      <link>http://localhost:1313/columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/columns/</guid>
+      <description>&lt;p&gt;在这里，我将长期的研究与思考沉淀为三个核心专栏。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;1-巴菲特致股东的信-buffett-letters&#34;&gt;1. 巴菲特致股东的信 (Buffett Letters)&lt;/h2&gt;
+&lt;p&gt;这是我目前投入精力最大的项目。我正在系统梳理 1957 年至今的巴菲特股东信与合伙人书信。
+这不仅仅是翻译，而是提炼价值投资的核心框架，并结合国内企业（如泸州老窖、美团等）的财报模型进行实战映射。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;适宜人群&lt;/strong&gt;：追求复利、关注企业自由现金流与护城河的长期投资者。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;专栏形式&lt;/strong&gt;：深度长文 + 线上读书会。&lt;/li&gt;
+&lt;li&gt;👉 &lt;strong&gt;&lt;a href=&#34;%E8%BF%99%E9%87%8C%E5%A1%AB%E4%BD%A0%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%88%E9%9B%86%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5&#34;&gt;点击这里，阅读公众号上的专栏精华合集&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-商业的世界&#34;&gt;2. 商业的世界&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;介绍文字&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-世界的脉络&#34;&gt;3. 世界的脉络&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;介绍文字&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>联系</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;style&gt;
+  /* 魔法指令：直接把默认的标题块彻底隐藏掉，实现纯粹的正文沉浸感 */
+  .post-header { display: none; }
+&lt;/style&gt;
+&lt;p&gt;&lt;img alt=&#34;微信公众号&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/gzh.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;公众号：夏卫强&lt;/p&gt;
+&lt;p&gt;小红书：夏卫强&lt;/p&gt;
+&lt;p&gt;邮箱：xia.chn@outlook.com&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,85 @@
+/* =========================================
+   全局字体与颜色基础设置
+   ========================================= */
+body {
+    /* 采用最优秀的跨平台中文无衬线字体栈，确保在苹果和Windows上都极其清晰 */
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+    color: #2c2c2c; /* 拒绝刺眼的纯黑(#000000)，采用高级的深灰，适合长期阅读 */
+    background-color: #fcfcfc; /* 极浅的暖灰白底色，降低屏幕反光 */
+}
+
+/* =========================================
+   文章正文 (核心阅读区) 排版设计
+   ========================================= */
+.post-content {
+    font-size: 16px;            /* 字号调大，默认通常是16px，18px更具沉浸感 */
+    line-height: 1.85;          /* 黄金中文行距，让文字呼吸感十足 */
+    letter-spacing: 0.04em;     /* 微调字间距，避免中文字符挤在一起 */
+    text-align: justify;        /* 【关键】两端对齐。让文字左右边缘像刀切一样整齐，极具出版物的高级感 */
+}
+
+/* 段落之间的留白 */
+.post-content p {
+    margin-bottom: 1.6em;       /* 段落间距拉大，区分逻辑层级，避免文字墙 */
+}
+
+/* =========================================
+   各级标题 (H1, H2, H3) 的层次感设计
+   ========================================= */
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a;             /* 标题颜色比正文更深，形成视觉锚点 */
+    font-weight: 600;           /* 标题加粗 */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 2.5em;          /* 标题上方留出巨大空白，提示新章节开始 */
+    margin-bottom: 1em;         /* 标题下方间距适中，紧贴其管辖的正文 */
+}
+
+/* 独立针对大标题 的优化 */
+.post-content h1 {
+    font-size: 25px;
+    border-bottom: 1px solid #eaeaea; /* 标题下方加一条极淡的分割线，增加结构感 */
+    padding-bottom: 10px;
+}
+
+.post-content h2 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+/* =========================================
+   引用块 (Blockquote) 样式优化
+   （你在写巴菲特金句时会经常用到）
+   ========================================= */
+.post-content blockquote {
+    margin: 2em 0;
+    padding: 15px 25px;
+    background-color: #f5f5f5;
+    border-left: 4px solid #555555; /* 极简的左侧提示线 */
+    color: #555555;
+    font-size: 16px;
+    font-style: normal;
+}
+
+
+/* =========================================
+   极致净化网页底部，只保留自己的版权信息
+   ========================================= */
+.footer {
+    font-size: 0 !important; /* 让游离的符号和空格瞬间隐身 */
+}
+.footer span:first-child {
+    font-size: 14px;         /* 恢复你自己的 ©xiaweiqiang 文字大小 */
+}
+.footer span:not(:first-child) {
+    display: none !important; /* 强制隐藏后面所有的内容（包括 Powered by） */
+}
+
+
+/* =========================================
+   调整顶部导航栏 Logo (首页) 的字体大小
+   ========================================= */
+.logo a {
+    font-size: 20px !important; /* 默认通常是 24px，这里调小到了 20px */
+    font-weight: 600;           /* 保持半粗体，显得精致且不单薄 */
+}
