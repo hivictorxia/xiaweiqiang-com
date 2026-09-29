@@ -1,5 +1,5 @@
 ---
-title: "商业的世界"
+title: "国际游学"
 date: 2026-09-25
 draft: false
 categories: ["columns"] 

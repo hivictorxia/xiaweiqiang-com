@@ -1,6 +1,6 @@
 baseURL = 'https://xiaweiqiang.com/'
 languageCode = 'zh-cn'
-title = '夏卫强 | Victor'
+title = '夏卫强'
 copyright = "©夏卫强"   # 添加这一行，它会替换掉默认的年份和名字
 theme = 'PaperMod'
 
@@ -13,32 +13,37 @@ theme = 'PaperMod'
   author = "夏卫强"
   defaultTheme = "light"           # 默认使用极简浅色主题
   disableThemeToggle = true        # 关闭黑夜/白天模式切换按钮，保持极简视觉一致性
-  ShowReadingTime = true           # 显示预计阅读时间
+  ShowReadingTime = false           # 显示预计阅读时间
   ShowShareButtons = false         # 隐藏社交分享按钮，去除页面杂音
   ShowPostNavLinks = true          # 文章底部显示“上一篇/下一篇”
   disableSpecial1stPost = true      # 关闭首篇文章的特殊样式
+  DateFormat = "2006/01/02"       #   把日期格式定义为 YYYY/MM/DD
 
 # 控制左上角显示的文字
   [params.label]
-    text = "首页"
+    text = "夏卫强"
 
 # 首页 Profile 模式配置
-[params.profileMode]
-  enabled = false
+  [params.profileMode]
+    enabled = false
 
 # 顶部导航栏重构为“产品目录”
 [[menu.main]]
-    name = "周刊"
-    url = "/youwei/"
+    name = "作品"
+    url = "/categories/youwei/"
     weight = 1
 [[menu.main]]
-    name = "专栏"
+    name = "服务"
     url = "/categories/columns/"
     weight = 2
 [[menu.main]]
     name = "关于"
-    url = "/about/"
+    url = "/categories/about/"
     weight = 3
+# [[menu.main]]
+#     name = "关于"
+#     url = "/about/"
+#     weight = 3
 
 # 直接用代码画图，解除 Hugo 默认的安全限制
 [markup.goldmark.renderer]
