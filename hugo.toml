@@ -5,7 +5,8 @@ copyright = "©夏卫强"   # 添加这一行，它会替换掉默认的年份�
 theme = 'PaperMod'
 
 # 分页设置：首页只展示最新的 10 篇文章，保持页面干净
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   # 统一网站语言与作者
