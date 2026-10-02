@@ -62,6 +62,8 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
 }
 
+
+
 /* =========================================
    极简暗色导航栏
    ========================================= */
@@ -97,6 +99,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF !important;
 }
 
+
+
 /* =========================================
    文章巨型色块标题
    ========================================= */
@@ -119,6 +123,8 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: center !important;
 }
+
+
 
 /* =========================================
    文章底部的作者卡片 (Tobias Ahlin 50/50 色块拼图版)
@@ -281,4 +287,43 @@ h1, h2, h3, h4, h5, h6 {
         text-align: left;
         align-items: flex-start;
     }
+}
+
+
+
+
+/* =========================================
+   列表页（如“作品”、“服务”）巨型色块标题 (全屏贴边版)
+   ========================================= */
+
+/* 1. 外层色块盒子：强制全屏、贴紧导航栏 */
+.list .page-header {
+    background-color: #314964;
+    padding: 120px 20px;
+    margin-bottom: 60px !important;
+    
+    /* 强制全屏宽度的黑科技 */
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 100vw;
+    border-radius: 0; 
+    
+    /* 抵消顶部间距，让色块紧贴上方导航栏 */
+    margin-top: -50px; 
+    
+    /* Flexbox 强制锁定居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: none !important; /* 强制干掉原有的浅色底线 */
+}
+
+/* 2. 内层标题文字：同款流体大字与纯白显示 */
+.list .page-header h1 {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    font-size: clamp(32px, 5vw, 52px) !important;
+    margin: 0 !important;           /* 清除默认边距，保证绝对垂直居中 */
+    letter-spacing: 2px;
 }

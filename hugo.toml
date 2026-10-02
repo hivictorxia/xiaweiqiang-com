@@ -1,5 +1,5 @@
 baseURL = 'https://xiaweiqiang.com/'
-languageCode = 'zh-cn'
+locale = 'zh-cn'
 title = '夏卫强'
 copyright = "©夏卫强"   # 添加这一行，它会替换掉默认的年份和名字
 theme = 'PaperMod'
@@ -41,10 +41,7 @@ theme = 'PaperMod'
     name = "关于"
     url = "/categories/about/"
     weight = 3
-# [[menu.main]]
-#     name = "关于"
-#     url = "/about/"
-#     weight = 3
+
 
 # 直接用代码画图，解除 Hugo 默认的安全限制
 [markup.goldmark.renderer]
