@@ -144,8 +144,8 @@
 &lt;div class=&#34;contact-container&#34;&gt;
 &lt;!-- 1. 顶部引导语 --&gt;
 &lt;div class=&#34;contact-header&#34;&gt;
-&lt;h2&gt;建立连接，发生合作&lt;/h2&gt;
-&lt;p&gt;无论是关于国际游学、出境深度游与各国签证服务咨询，&lt;br&gt;还是商业思考、投资理念的交流，都欢迎通过以下方式与我联系。&lt;/p&gt;
+&lt;h2&gt;建立连接&lt;/h2&gt;
+&lt;p&gt;都欢迎通过以下方式与我联系。&lt;/p&gt;
 &lt;/div&gt;
 &lt;!-- 2. 二维码双栏卡片 (微信私域 + 选流平台) --&gt;
 &lt;div class=&#34;qr-cards-grid&#34;&gt;
@@ -155,7 +155,7 @@
 &lt;img src=&#34;http://localhost:1313/images/wechat.jpg&#34; alt=&#34;微信二维码&#34;&gt;
 &lt;/div&gt;
 &lt;h3&gt;个人微信&lt;/h3&gt;
-&lt;p class=&#34;qr-desc&#34;&gt;一对一深度咨询 / 业务交付对接&lt;/p&gt;
+&lt;p class=&#34;qr-desc&#34;&gt;建立联系 / 业务咨询&lt;/p&gt;
 &lt;div class=&#34;qr-tag&#34;&gt;推荐直接沟通 ↗&lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- 微信公众号 --&gt;

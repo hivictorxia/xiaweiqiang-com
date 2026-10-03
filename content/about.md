@@ -13,8 +13,8 @@ disableShare: true
 <div class="contact-container">
 <!-- 1. 顶部引导语 -->
 <div class="contact-header">
-<h2>建立连接，发生合作</h2>
-<p>无论是关于国际游学、出境深度游与各国签证服务咨询，<br>还是商业思考、投资理念的交流，都欢迎通过以下方式与我联系。</p>
+<h2>建立连接</h2>
+<p>都欢迎通过以下方式与我联系。</p>
 </div>
 <!-- 2. 二维码双栏卡片 (微信私域 + 选流平台) -->
 <div class="qr-cards-grid">
@@ -24,7 +24,7 @@ disableShare: true
 <img src="/images/wechat.jpg" alt="微信二维码">
 </div>
 <h3>个人微信</h3>
-<p class="qr-desc">一对一深度咨询 / 业务交付对接</p>
+<p class="qr-desc">建立联系 / 业务咨询</p>
 <div class="qr-tag">推荐直接沟通 ↗</div>
 </div>
 

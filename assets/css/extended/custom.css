@@ -707,22 +707,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* 多平台信息横条名片 */
+/* 多平台信息横条名片 (居中居中排版) */
 .contact-methods-card {
     background: #ffffff;
     border: 1px solid #eaeaea;
     border-radius: 16px;
-    padding: 20px 35px;
+    padding: 25px 35px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* 核心：让所有子项在容器中水平居中 */
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;               /* 增大项与项之间的距离，视觉更好看 */
+    text-align: center;
 }
 
 .method-item {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    align-items: center;     /* 核心：让文字和标签在自身区块内部居中 */
+    gap: 6px;
 }
 
 .method-label {
