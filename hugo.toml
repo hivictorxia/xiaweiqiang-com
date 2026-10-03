@@ -35,7 +35,7 @@ theme = 'PaperMod'
     weight = 1
 [[menu.main]]
     name = "工作"
-    url = "/categories/columns/"
+    url = "/services/"
     weight = 2
 [[menu.main]]
     name = "体验"

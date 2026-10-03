@@ -49,6 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
+
+
 /* =========================================
    极致净化网页底部
    ========================================= */
@@ -344,4 +346,187 @@ h1, h2, h3, h4, h5, h6 {
     .mobile-br {
         display: block; /* 触发换行 */
     }
+}
+
+
+
+/* =========================================
+   微信公众号文章引流目录 (Archive Index)
+   ========================================= */
+
+.wechat-archive {
+    margin-top: 60px;
+    border-top: 1px solid #eaeaea;
+    padding-top: 40px;
+}
+
+/* 年份标题 */
+.archive-year {
+    font-size: 24px !important;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 30px !important;
+    margin-top: 0 !important;
+    letter-spacing: 1px;
+}
+
+/* 文章卡片本体：极简的白底细边框，响应式布局 */
+.wechat-article-card {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+/* 鼠标悬停时的顶级交互反馈 */
+.wechat-article-card:hover {
+    border-color: #314964;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    transform: translateX(5px); /* 悬停时整个卡片微微向右滑动，邀请点击 */
+}
+
+/* 顶部元数据：日期与标签 */
+.article-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.article-tag {
+    color: #314964; /* 标签使用主色调 */
+}
+
+/* 文章真实标题 */
+.wechat-article-card .article-title {
+    font-size: 18px !important;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin: 0 0 20px 0 !important;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.wechat-article-card:hover .article-title {
+    color: #314964;
+}
+
+/* 底部操作区：前往公众号阅读 */
+.article-action {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #aaaaaa;
+    transition: color 0.3s ease;
+}
+
+.wechat-article-card:hover .article-action {
+    color: #314964;
+}
+
+
+
+/* =========================================
+   服务导览页 (Service Showcase)
+   ========================================= */
+
+.service-showcase {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0 60px 0;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service-header h2 {
+    font-size: clamp(24px, 4vw, 32px) !important;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 20px !important;
+}
+
+.service-header p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.8;
+}
+
+/* 卡片布局 (电脑端并排，手机端自动堆叠) */
+.service-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* 独立卡片设计 */
+.service-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 40px 30px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card:hover {
+    border-color: #314964;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 22px !important;
+    color: #314964;
+    margin: 0 0 10px 0 !important;
+}
+
+.service-card .sub-title {
+    font-size: 14px !important;
+    color: #888888;
+    font-weight: 500;
+    margin: 0 0 20px 0 !important;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.7;
+    flex-grow: 1; /* 让按钮自动沉底对齐 */
+    margin-bottom: 30px;
+}
+
+.service-action {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #314964;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    align-self: flex-start;
+}
+
+.service-action:hover {
+    color: #1a1a1a;
+    text-decoration: underline;
 }
