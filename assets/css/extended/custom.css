@@ -751,12 +751,13 @@ a.method-value:hover {
 /* 手机端响应式适配 */
 @media (max-width: 768px) {
     .qr-cards-grid {
-        grid-template-columns: 1fr; /* 手机端二维码上下排列 */
+        grid-template-columns: 1fr; 
         gap: 20px;
     }
     .contact-methods-card {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;      /* <--- 改成 center，强制手机端纵向居中 */
+        justify-content: center;
         padding: 25px 20px;
     }
 }
