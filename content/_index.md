@@ -1,13 +1,13 @@
 ---
 ---
 
-<!-- 1. 经典圆圈设计回归（归于至简，做到极致） -->
+<!-- 1. 经典圆圈设计回归（归于至简，<br class="mobile-br">做到极致） -->
 <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 380px; margin-top: 20px; margin-bottom: 40px;">
 <!-- 背后的圆圈 -->
 <div style="position: absolute; width: 350px; height: 350px; border: 1.5px solid #314964; border-radius: 50%; z-index: 1;"></div>
 <!-- 前面的文字（注意：如果网站背景不是纯白，请将 #f5f5f5 改为你的网页背景色，以确保能遮挡出缺口） -->
-<div style="position: relative; z-index: 2; background-color: #ffffff; padding: 15px 150px; font-size: 22px; font-weight: 500; color: #314964; letter-spacing: 4px; text-align: center; line-height: 1.6;">
-归于至简，<br class="mobile-br">做到极致。
+<div style="position: relative; z-index: 2; background-color: #ffffff; padding: 15px 120px; font-size: 22px; font-weight: 500; color: #314964; letter-spacing: 4px; text-align: center; line-height: 1.6;">
+归于至简，做到极致。
 </div>
 </div>
 
