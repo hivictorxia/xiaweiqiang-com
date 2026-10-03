@@ -129,196 +129,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* =========================================
-   文章底部的作者卡片 (Tobias Ahlin 50/50 色块拼图版)
-   ========================================= */
-
-/* 1. 卡片外框：变成一个带圆角的整体 */
-.author-section {
-    display: flex;
-    margin: 80px 0 60px;          /* 距离正文远一点，留出呼吸感 */
-    border-radius: 16px;          /* 大圆角，非常现代的设计语言 */
-    overflow: hidden;             /* 【关键】切掉多余的边角，让照片和色块完美融合在圆角里 */
-    background-color: #1f4954;    /* 左侧色块的底色：非常高级的极浅灰蓝色 */
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04); /* 加一点悬浮阴影 */
-}
-
-/* 2. 左侧文字区域：占一半大小 */
-.author-content {
-    flex: 1;                      /* 【关键】强制占据刚好 50% 的宽度 */
-    padding: 60px 50px;           /* 文字周围的留白 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;      /* 让文字在色块中绝对垂直居中 */
-}
-
-.author-content h2 {
-    font-size: 32px !important;
-    margin-top: 0 !important;
-    margin-bottom: 15px !important;
-    font-weight: 800;
-    letter-spacing: 1px;
-    color: #ffffff;
-}
-
-.author-content p {
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 1.8;
-    margin-bottom: 25px;
-}
-
-.author-links a {
-    color: #ffffff;
-    font-weight: 600;
-    text-decoration: none;
-    border-bottom: 2px solid #ffffff; /* 底部加一条下划线 */
-    padding-bottom: 2px;
-    transition: all 0.2s ease;
-}
-
-.author-links a:hover {
-    color: #ffffff;
-}
-
-/* 3. 右侧图片区域：也占一半大小，且高度自动对齐 */
-.author-avatar {
-    flex: 1;                      /* 【关键】占据另外 50% 的宽度，和左侧完全等大 */
-    position: relative;           /* 为内部照片的绝对定位做准备 */
-}
-
-/* 【核心黑科技】：不管左侧文字有多少，右侧图片永远填充满这个 50% 的盒子 */
-.author-avatar img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;            /* 保证照片被完美裁切，填满且不变形 */
-    border-radius: 0;             /* 取消之前的圆形，变成填满盒子的方形 */
-    box-shadow: none;
-}
-
-/* 4. 手机屏幕自动适配：上下堆叠 */
-@media (max-width: 768px) {
-    .author-section {
-        /* 在手机上，照片在上面，文字色块在下面 */
-        flex-direction: column-reverse; 
-    }
-    .author-content {
-        padding: 40px 30px;
-        text-align: center;       /* 手机上文字居中 */
-    }
-    .author-avatar {
-        width: 100%;
-        min-height: 300px;        /* 手机上强制给照片一个高度，防止因为没有文字撑开而消失 */
-    }
-}
-
-
-
-/* =========================================
-   全新文章底部导航 (PREV / NEXT 卡片设计)
-   ========================================= */
-
-.custom-paginav {
-    display: flex;
-    gap: 20px;                    /* 两个卡片之间的间距 */
-    margin-top: 60px;             /* 距离上方的作者卡片留出充足呼吸感 */
-    margin-bottom: 60px;
-}
-
-/* 导航卡片基础设计 */
-.nav-card {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    background-color: #ffffff;
-    border: 1px solid #eaeaea;    /* 极细的灰色边框 */
-    border-radius: 12px;          /* 呼应整体的圆角设计 */
-    text-decoration: none;
-    transition: all 0.3s ease;    /* 丝滑的交互动画 */
-}
-
-/* 悬停交互：边框变色并微微浮起 */
-.nav-card:hover {
-    border-color: #314964;        /* 鼠标悬停时，边框变成你顶栏的深蓝色 */
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-    transform: translateY(-2px);
-}
-
-/* 空白占位卡（当没有上一篇/下一篇时保持排版不乱） */
-.empty-card {
-    background-color: transparent;
-    border: none;
-}
-
-/* 提示文字 (如“← 较新文章”) */
-.nav-label {
-    font-size: 13px;
-    color: #888888;
-    margin-bottom: 10px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-/* 文章真实标题 */
-.nav-title {
-    font-size: 18px;
-    color: #1a1a1a;
-    font-weight: 700;
-    line-height: 1.5;
-}
-
-/* 左右对齐细节 */
-.prev-card {
-    text-align: left;
-}
-.next-card {
-    text-align: right;
-    align-items: flex-end;
-}
-
-/* 手机屏幕自动适配：从左右并排折叠为上下排列 */
-@media (max-width: 768px) {
-    .custom-paginav {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .nav-card {
-        text-align: left;
-        align-items: flex-start;
-    }
-}
-
-
-
-
-/* =========================================
    列表页（如“作品”、“服务”）巨型色块标题 (全屏贴边版)
    ========================================= */
 
-/* 1. 外层色块盒子：强制全屏、贴紧导航栏 */
+/* 1. 隐藏顶部类别 */
 .list .page-header {
-    background-color: #314964;
-    padding: 120px 20px;
-    margin-bottom: 60px !important;
-    
-    /* 强制全屏宽度的黑科技 */
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    max-width: 100vw;
-    border-radius: 0; 
-    
-    /* 抵消顶部间距，让色块紧贴上方导航栏 */
-    margin-top: -50px; 
-    
-    /* Flexbox 强制锁定居中 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: none !important; /* 强制干掉原有的浅色底线 */
+    display: none !important;
 }
 
 /* 2. 内层标题文字：同款流体大字与纯白显示 */
@@ -464,22 +280,33 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.8;
 }
 
-/* 卡片布局 (电脑端并排，手机端自动堆叠) */
+
+/* =========================================
+   三大核心服务卡片 (宽体横向排版)
+   ========================================= */
+
+/* 1. 卡片容器：强制单列，不论电脑还是手机都是一行一个 */
 .service-cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr; 
     gap: 30px;
 }
 
-/* 独立卡片设计 */
+/* 2. 独立卡片：采用高级的左图右文横向网格 */
 .service-card {
     background-color: #ffffff;
     border: 1px solid #eaeaea;
     border-radius: 12px;
-    padding: 40px 30px;
+    padding: 40px;
     transition: all 0.3s ease;
-    display: flex;
-    flex-direction: column;
+    
+    display: grid;
+    /* 左列固定 65px 给图标，右列自动填满剩余空间给文字 */
+    grid-template-columns: 65px 1fr;
+    /* 右侧内容自动分为 4 行（标题、副标题、正文、按钮） */
+    grid-template-rows: auto auto auto auto;
+    column-gap: 30px; /* 图标和文字之间的距离 */
+    align-items: start;
 }
 
 .service-card:hover {
@@ -488,45 +315,321 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-5px);
 }
 
+/* 3. 卡片内部元素精确定位 (无需修改 HTML) */
+
+/* 图标：固定在第1列，纵向跨越所有文字行 */
 .card-icon {
-    font-size: 32px;
-    margin-bottom: 20px;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1; 
+    font-size: 48px; /* 图标放大，撑起左侧气场 */
+    margin: 0;
+    margin-top: 5px; /* 微微下移，与右侧标题对齐 */
 }
 
+/* 标题、副标题、正文、按钮：强制全部放入第2列 */
 .service-card h3 {
+    grid-column: 2 / 3;
     font-size: 22px !important;
     color: #314964;
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 8px 0 !important;
 }
 
 .service-card .sub-title {
+    grid-column: 2 / 3;
     font-size: 14px !important;
     color: #888888;
     font-weight: 500;
-    margin: 0 0 20px 0 !important;
+    margin: 0 0 15px 0 !important;
     border-bottom: 1px solid #f0f0f0;
     padding-bottom: 15px;
 }
 
 .service-card p {
+    grid-column: 2 / 3;
     font-size: 15px;
     color: #555555;
     line-height: 1.7;
-    flex-grow: 1; /* 让按钮自动沉底对齐 */
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .service-action {
+    grid-column: 2 / 3;
     display: inline-block;
     font-size: 14px;
     font-weight: 600;
     color: #314964;
     text-decoration: none;
     transition: color 0.3s ease;
-    align-self: flex-start;
+    align-self: start;
 }
 
 .service-action:hover {
     color: #1a1a1a;
     text-decoration: underline;
+}
+
+/* 4. 手机端极致体验微调 */
+@media (max-width: 768px) {
+    .service-card {
+        padding: 30px 20px;
+        grid-template-columns: 45px 1fr; /* 手机屏幕较窄，缩小左侧图标区域 */
+        column-gap: 20px; /* 缩短图文间距 */
+    }
+    .card-icon {
+        font-size: 36px; /* 手机端图标按比例缩小 */
+        margin-top: 2px;
+    }
+}
+
+
+
+/* =========================================
+   文章列表 (创作) 与服务卡片 100% 同款排版
+   ========================================= */
+
+/* 1. 将文章卡片改造为左图右文的网格布局 */
+.post-entry {
+    background-color: #ffffff !important;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 40px;            
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+    box-shadow: none;         
+    position: relative;
+    
+    /* 引入和服务卡片一模一样的 Grid 布局 */
+    display: grid !important;
+    grid-template-columns: 65px 1fr;
+    column-gap: 30px;
+    align-items: start;
+}
+
+/* 2. 同款高级悬停浮动 */
+.post-entry:hover {
+    border-color: #314964;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    transform: translateY(-5px);
+}
+
+/* 3. 强制把标题、摘要、底部时间都挤到右边的第 2 列 */
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+    grid-column: 2 / 3;
+}
+
+/* 文字细节统一 */
+.post-entry .entry-header h2 {
+    font-size: 22px !important;
+    color: #314964 !important;
+    margin: 0 0 12px 0 !important;
+    font-weight: 700;
+}
+.post-entry .entry-content {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.post-entry .entry-footer {
+    font-size: 13px;
+    color: #888888;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+/* =========================================
+   神奇魔法：为不同的文章自动注入专属图标
+   ========================================= */
+
+/* 默认生成一个放置在第 1 列的图标 */
+.post-entry::before {
+    content: "📝";             /* 默认图标（如果你写了新文章，默认显示这个） */
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;         /* 纵向跨越整个卡片 */
+    font-size: 48px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* 如果文章标题包含“商业的世界”，自动替换为公文包图标 */
+.post-entry:has(a[aria-label*="商业的世界"])::before {
+    content: "🪙";
+}
+
+/* 如果文章标题包含“世界的脉络”，自动替换为地球图标 */
+.post-entry:has(a[aria-label*="世界的脉络"])::before {
+    content: "🌍";
+}
+
+/* =========================================
+   手机端同款响应式缩小适配
+   ========================================= */
+@media (max-width: 768px) {
+    .post-entry {
+        grid-template-columns: 45px 1fr;
+        column-gap: 20px;
+        padding: 30px 20px;
+    }
+    .post-entry::before {
+        font-size: 36px;
+    }
+}
+
+
+
+/* =========================================
+   首页：三大哲理导航卡片 (宽体横向排版)
+   ========================================= */
+
+/* 1. 强制容器单列，并缩小总宽度以提升横向阅读舒适度 */
+.home-philosophy-cards {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 30px;
+    max-width: 900px; /* 宽屏卡片需要稍微收拢宽度，避免文字拉得太长 */
+    margin: 0 auto 60px auto;
+}
+
+/* 2. 卡片本体：使用高级网格实现“左引言、右业务”的精美排版 */
+.phil-card {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 45px 50px;
+    text-decoration: none !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    position: relative;
+    top: 0;
+    
+    /* 内部布局：左列分配 280px，右列自动填满剩余空间 */
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    column-gap: 50px;
+    row-gap: 15px;
+}
+
+.phil-card:hover {
+    border-color: #314964;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    top: -5px;
+}
+
+/* 3. 左侧区域 (栏目名 + 核心理念) */
+.phil-title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 14px !important;
+    color: #888888 !important;
+    letter-spacing: 2px;
+    margin: 0 !important;
+    font-weight: 600;
+}
+
+.phil-lead {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    font-size: 20px;
+    font-weight: 700;
+    color: #314964;
+    line-height: 1.6;
+    margin: 10px 0 0 0 !important;
+}
+
+/* 4. 右侧区域 (业务描述 + 跳转按钮) */
+.phil-desc {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.8;
+    margin: 0 0 25px 0 !important;
+}
+
+.phil-action {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    font-size: 13px;
+    font-weight: 600;
+    color: #aaaaaa;
+    transition: color 0.3s ease;
+    align-self: end; /* 按钮永远沉底 */
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
+}
+
+.phil-card:hover .phil-action {
+    color: #314964;
+}
+
+/* 5. 手机端响应式适配 (屏幕太窄时自动恢复为上下结构) */
+@media (max-width: 768px) {
+    .phil-card {
+        grid-template-columns: 1fr; /* 变成单列 */
+        padding: 35px 25px;
+    }
+    /* 取消所有的网格强制占位 */
+    .phil-title, .phil-lead, .phil-desc, .phil-action {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+    .phil-lead {
+        font-size: 18px;
+        margin: 5px 0 15px 0 !important;
+    }
+    .phil-desc {
+        margin: 0 0 25px 0 !important;
+    }
+}
+
+
+
+/* =========================================
+   底部“和我联系”高级胶囊按钮
+   ========================================= */
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 45px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 4px;       /* 拉大字间距，增加呼吸感 */
+    color: #ffffff !important; /* 默认白字 */
+    background-color: #314964; /* 默认深蓝底色 */
+    border: 1px solid #314964;
+    border-radius: 50px;       /* 完美的半圆角，呼应顶部圆圈 */
+    text-decoration: none !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* 顶级悬停交互：背景变白，文字变蓝，浮起并产生阴影 */
+.contact-btn:hover {
+    background-color: #ffffff;
+    color: #314964 !important;
+    box-shadow: 0 15px 30px rgba(49, 73, 100, 0.15);
+    transform: translateY(-4px);
+}
+
+/* 箭头专属动画 */
+.contact-arrow {
+    transition: transform 0.3s ease;
+}
+
+/* 鼠标悬停时，箭头微微向右移动，产生“邀请点击”的心理暗示 */
+.contact-btn:hover .contact-arrow {
+    transform: translateX(6px);
+}
+
+
+
+/* =========================================
+   彻底隐藏文章底部的线性导航 (较新/较旧文章)
+   ========================================= */
+.paginav {
+    display: none !important;
 }

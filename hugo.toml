@@ -11,6 +11,7 @@ theme = 'PaperMod'
 [params]
   # 统一网站语言与作者
   author = "夏卫强"
+  mainSections = ["ignore_me"]     # 隐藏历史文章
   defaultTheme = "light"           # 默认使用极简浅色主题
   disableThemeToggle = true        # 关闭黑夜/白天模式切换按钮，保持极简视觉一致性
   ShowReadingTime = false           # 显示预计阅读时间
@@ -18,7 +19,7 @@ theme = 'PaperMod'
   ShowPostNavLinks = false          # 文章底部显示“上一篇/下一篇”
   disableSpecial1stPost = true      # 关闭首篇文章的特殊样式
   DateFormat = "2006/01/02"       #   把日期格式定义为 YYYY/MM/DD
-  comments = true                      # 打开评论区的总开关，让作者卡片显示出来
+  comments = false                 # 打开评论区的总开关，让作者卡片显示出来
 
 # 控制左上角显示的文字
   [params.label]
