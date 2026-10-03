@@ -802,7 +802,7 @@ h1.post-title, .post-title {
 
 
 /* =========================================
-   圆圈与文字底框 (双端单行完美截断)
+   圆圈与文字底框 (双端单行完美截断)（归于至简，做到极致。）
    ========================================= */
 
 /* 1. 容器：保证绝对居中且不产生横向滚动条 */
@@ -830,7 +830,7 @@ h1.post-title, .post-title {
 .circle-text-box {
     position: relative;
     z-index: 2;
-    background-color: #fcfcfc; /* 注意：请保持和网站底色完全一致，达到“隐形刀刃”的截断效果 */
+    background-color: #f5f5f5; /* 注意：请保持和网站底色完全一致，达到“隐形刀刃”的截断效果 */
     font-size: 22px;
     font-weight: 500;
     color: #314964;
