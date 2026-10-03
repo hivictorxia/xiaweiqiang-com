@@ -1,6 +1,6 @@
 ---
 title: "世界的脉络"
-date: 2026-09-25
+date: 2026-09-26
 draft: false
 categories: ["youwei"] 
 ---
