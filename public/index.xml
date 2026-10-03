@@ -144,8 +144,7 @@
 &lt;div class=&#34;contact-container&#34;&gt;
 &lt;!-- 1. 顶部引导语 --&gt;
 &lt;div class=&#34;contact-header&#34;&gt;
-&lt;h2&gt;建立连接&lt;/h2&gt;
-&lt;p&gt;都欢迎通过以下方式与我联系。&lt;/p&gt;
+&lt;p&gt;欢迎通过以下方式与我联系&lt;/p&gt;
 &lt;/div&gt;
 &lt;!-- 2. 二维码双栏卡片 (微信私域 + 选流平台) --&gt;
 &lt;div class=&#34;qr-cards-grid&#34;&gt;

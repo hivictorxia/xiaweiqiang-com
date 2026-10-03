@@ -13,8 +13,7 @@ disableShare: true
 <div class="contact-container">
 <!-- 1. 顶部引导语 -->
 <div class="contact-header">
-<h2>建立连接</h2>
-<p>都欢迎通过以下方式与我联系。</p>
+<p>欢迎通过以下方式与我联系</p>
 </div>
 <!-- 2. 二维码双栏卡片 (微信私域 + 选流平台) -->
 <div class="qr-cards-grid">
@@ -42,7 +41,6 @@ disableShare: true
 
 <!-- 3. 多平台与邮箱极简名片区 -->
 <div class="contact-methods-card">
-
 <div class="method-item">
 <span class="method-label">✉️ 电子邮箱</span>
 <a href="mailto:xia.chn@outlook.com" class="method-value">xia.chn@outlook.com</a>
