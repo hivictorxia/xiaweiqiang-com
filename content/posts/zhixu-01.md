@@ -1,5 +1,5 @@
 ---
-title: "字里行间"
+title: "秩序·原则"
 date: 2026-09-25
 draft: false
 categories: ["about"] 

@@ -30,15 +30,15 @@ theme = 'PaperMod'
 
 # 顶部导航栏重构为“产品目录”
 [[menu.main]]
-    name = "作品"
+    name = "创作"
     url = "/categories/youwei/"
     weight = 1
 [[menu.main]]
-    name = "服务"
+    name = "工作"
     url = "/categories/columns/"
     weight = 2
 [[menu.main]]
-    name = "关于"
+    name = "体验"
     url = "/categories/about/"
     weight = 3
 
