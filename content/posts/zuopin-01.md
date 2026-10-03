@@ -5,17 +5,6 @@ draft: false
 categories: ["youwei"] 
 ---
 
-## 发刊词
-
-这是一个商业的世界。
-
-
-
-<!-- 微信公众号文章收录目录 -->
-
-<div class="wechat-archive">
-<!-- 年份分割线 -->
-<h3 class="archive-year">2026</h3>
 <!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) -->
 <a href="https://mp.weixin.qq.com/s/你的文章链接1" target="_blank" class="wechat-article-card">
     <div class="article-meta">

@@ -14,13 +14,7 @@
       <link>http://localhost:1313/posts/zuopin-01/</link>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/zuopin-01/</guid>
-      <description>&lt;h2 id=&#34;发刊词&#34;&gt;发刊词&lt;/h2&gt;
-&lt;p&gt;这是一个商业的世界。&lt;/p&gt;
-&lt;!-- 微信公众号文章收录目录 --&gt;
-&lt;div class=&#34;wechat-archive&#34;&gt;
-&lt;!-- 年份分割线 --&gt;
-&lt;h3 class=&#34;archive-year&#34;&gt;2026&lt;/h3&gt;
-&lt;!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) --&gt;
+      <description>&lt;!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) --&gt;
 &lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
     &lt;div class=&#34;article-meta&#34;&gt;
         &lt;span class=&#34;article-date&#34;&gt;10月15日&lt;/span&gt;
