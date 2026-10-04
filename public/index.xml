@@ -68,7 +68,7 @@
 &lt;/style&gt;
 &lt;div class=&#34;service-showcase&#34;&gt;
 &lt;div class=&#34;service-header&#34;&gt;
-&lt;h2&gt;体验世界&lt;/h2&gt;
+&lt;h2&gt;感受世界&lt;/h2&gt;
 &lt;p&gt;关于我去过的地方、遇见的人和经历的事；&lt;br&gt;
 也关于我正在经历、观察与思考的这个世界。&lt;/p&gt;
 &lt;/div&gt;
@@ -88,15 +88,6 @@
 &lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
 &lt;/div&gt;
 &lt;/a&gt;
-&lt;/div&gt;
-&lt;div style=&#34;margin-top: 60px; margin-bottom: 40px; text-align: center;&#34;&gt;
-&lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
-和我联系
-&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
-&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
-&lt;/svg&gt;
-&lt;/a&gt;
 &lt;/div&gt;</description>
     </item>
     <item>
@@ -114,7 +105,7 @@
 理解商业与财富，也从世界的脉络里寻找答案。&lt;/p&gt;
 &lt;/div&gt;
 &lt;a href=&#34;https://mp.weixin.qq.com/s/微信文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
-&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-10-02&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-10-09&lt;/span&gt;&lt;/div&gt;
 &lt;h4 class=&#34;article-title&#34;&gt;商业的世界&lt;/h4&gt;
 &lt;div class=&#34;article-action&#34;&gt;
 &lt;span&gt;前往专栏阅读&lt;/span&gt;
@@ -122,21 +113,12 @@
 &lt;/div&gt;
 &lt;/a&gt;
 &lt;a href=&#34;https://mp.weixin.qq.com/s/微信文章链接2&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
-&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-10-09&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-10-16&lt;/span&gt;&lt;/div&gt;
 &lt;h4 class=&#34;article-title&#34;&gt;世界的脉络&lt;/h4&gt;
 &lt;div class=&#34;article-action&#34;&gt;
 &lt;span&gt;前往专栏阅读&lt;/span&gt;
 &lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
 &lt;/div&gt;
-&lt;/a&gt;
-&lt;/div&gt;
-&lt;div style=&#34;margin-top: 60px; margin-bottom: 40px; text-align: center;&#34;&gt;
-&lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
-和我联系
-&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
-&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
-&lt;/svg&gt;
 &lt;/a&gt;
 &lt;/div&gt;</description>
     </item>

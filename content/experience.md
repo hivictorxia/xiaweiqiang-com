@@ -11,7 +11,7 @@ comments: false
 
 <div class="service-showcase">
 <div class="service-header">
-<h2>体验世界</h2>
+<h2>感受世界</h2>
 <p>关于我去过的地方、遇见的人和经历的事；<br>
 也关于我正在经历、观察与思考的这个世界。</p>
 </div>
@@ -32,15 +32,5 @@ comments: false
 <span>前往公众号阅读</span>
 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
 </div>
-</a>
-</div>
-
-<div style="margin-top: 60px; margin-bottom: 40px; text-align: center;">
-<a href="/about/" class="contact-btn">
-和我联系
-<svg class="contact-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-<line x1="5" y1="12" x2="19" y2="12"></line>
-<polyline points="12 5 19 12 12 19"></polyline>
-</svg>
 </a>
 </div>

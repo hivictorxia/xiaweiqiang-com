@@ -19,6 +19,7 @@ theme = 'PaperMod'
   comments = false
   hideFooter = true
   hideMeta = true         # 全局关闭默认文章元数据
+  mainSections = ["ignore_me"]    # 隐藏首页的历史文章列表
 
   [params.label]
     text = "夏卫强"
