@@ -22,8 +22,8 @@ disableShare: true
 </div>
 <h3>个人微信</h3>
 <p class="qr-desc">添加微信：A-Xia2039</p>
-<div class="qr-tag">推荐直接沟通 ↗</div>
 </div>
+<!-- <div class="qr-tag">推荐直接沟通 ↗</div> -->
 
 <div class="qr-card">
 <div class="qr-image-wrapper">
@@ -31,9 +31,9 @@ disableShare: true
 </div>
 <h3>微信公众号</h3>
 <p class="qr-desc">搜索关注：<strong>夏卫强</strong></p>
-<div class="qr-tag">阅读最新长文 ↗</div>
 </div>
 </div>
+<!-- <div class="qr-tag">阅读最新长文 ↗</div> -->
 
 <!-- 邮箱极简名片 -->
 <div class="contact-methods-card">
