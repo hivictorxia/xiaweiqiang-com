@@ -23,7 +23,7 @@ hideMeta: true
 <a href="/create/" class="phil-card">
 <h3 class="phil-title"><span class="phil-icon">📖</span> 创作</h3>
 <p class="phil-lead">阅读、写作，<br>理解这个世界；</p>
-<p class="phil-desc">这里有「商业的世界」，也有「世界的脉络」；<br class="mobile-br">理解商业与财富，也从世界的脉络里寻找答案。 </p>
+<p class="phil-desc">这里有「商业的世界」，也有「世界的脉络」；理解商业与财富，也从世界的脉络里寻找答案。 </p>
 <div class="phil-action">进入阅读 ↗</div>
 </a>
 
@@ -31,7 +31,7 @@ hideMeta: true
 <a href="/services/" class="phil-card">
 <h3 class="phil-title"><span class="phil-icon">💼</span> 工作</h3>
 <p class="phil-lead">工作、服务，<br>与这个世界建立连接；</p>
-<p class="phil-desc">提供国际游学、出境旅行、各国签证等服务；<br class="mobile-br">以全球视野，连接人与世界，<br class="mobile-br">让更多人走出去，看见更大的世界。</p>
+<p class="phil-desc">提供国际游学、出境旅行、各国签证等服务；以全球视野，连接人与世界，让更多人走出去，看见更大的世界。</p>
 <div class="phil-action">查看服务 ↗</div>
 </a>
 
@@ -39,7 +39,7 @@ hideMeta: true
 <a href="/experience/" class="phil-card">
 <h3 class="phil-title"><span class="phil-icon">🌐</span> 体验</h3>
 <p class="phil-lead">也走走看看，<br>亲身感受这个世界。</p>
-<p class="phil-desc">关于我去过的地方、遇见的人和经历的事；<br class="mobile-br">也关于我正在经历、观察与思考的这个世界。</p>
+<p class="phil-desc">关于我去过的地方、遇见的人和经历的事；也关于我正在经历、观察与思考的这个世界。</p>
 <div class="phil-action">了解更多 ↗</div>
 </a>
 
