@@ -20,6 +20,9 @@ theme = 'PaperMod'
   hideFooter = true
   hideMeta = true         # 全局关闭默认文章元数据
   mainSections = ["ignore_me"]    # 隐藏首页的历史文章列表
+  enableRobotsTXT = true          # 告诉爬虫哪些页面可以抓取
+  description = "夏卫强 | 个人网站"
+  keywords = ["夏卫强", "国际游学", "签证服务", "商业观察", "价值投资"]
 
   [params.label]
     text = "夏卫强"
