@@ -532,38 +532,45 @@ a.method-value:hover {
 }
 
 /* =========================================
-   9. 全局引流按钮
+   9. 全局引流按钮（胶囊）
    ========================================= */
-.contact-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    padding: 16px 45px;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 4px;
-    color: #ffffff !important;
-    background-color: #314964;
-    border: 1px solid #314964;
-    border-radius: 50px;
-    text-decoration: none !important;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+.contact-btn { 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 12px; 
+    padding: 16px 45px; 
+    font-size: 15px; 
+    font-weight: 600; 
+    letter-spacing: 4px; 
+    color: #ffffff !important; 
+    background-color: #314964; 
+    border: 1px solid #314964; 
+    border-radius: 50px; 
+    text-decoration: none !important; 
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); 
 }
 
-.contact-btn:hover {
-    background-color: #ffffff;
-    color: #314964 !important;
-    box-shadow: 0 15px 30px rgba(49, 73, 100, 0.15);
-    transform: translateY(-4px);
+/* 核心魔法：用隐形盒子在左侧占位，完美平衡右侧的18px箭头，迫使文字绝对居中 */
+.contact-btn::before {
+    content: "";
+    width: 18px;
+    display: block;
 }
 
-.contact-arrow {
-    transition: transform 0.3s ease;
+.contact-btn:hover { 
+    background-color: #ffffff; 
+    color: #314964 !important; 
+    box-shadow: 0 15px 30px rgba(49, 73, 100, 0.15); 
+    transform: translateY(-4px); 
 }
 
-.contact-btn:hover .contact-arrow {
-    transform: translateX(6px);
+.contact-arrow { 
+    transition: transform 0.3s ease; 
+}
+
+.contact-btn:hover .contact-arrow { 
+    transform: translateX(6px); 
 }
 
 /* =========================================

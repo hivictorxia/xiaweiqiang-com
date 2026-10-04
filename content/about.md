@@ -21,7 +21,7 @@ disableShare: true
 <img src="/images/wechat.jpg" alt="微信二维码">
 </div>
 <h3>个人微信</h3>
-<p class="qr-desc">添加微信：A-Xia2039</p>
+<p class="qr-desc">添加微信：<strong>A-Xia2039</strong></p>
 </div>
 <!-- <div class="qr-tag">推荐直接沟通 ↗</div> -->
 
