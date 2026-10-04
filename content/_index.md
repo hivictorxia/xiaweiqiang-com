@@ -31,7 +31,7 @@ hideMeta: true
 <a href="/services/" class="phil-card">
 <h3 class="phil-title"><span class="phil-icon">💼</span> 工作</h3>
 <p class="phil-lead">工作、服务，<br>与这个世界建立连接；</p>
-<p class="phil-desc">提供国际游学、出境旅行、各国签证等服务；以全球视野，连接人与世界，让更多人走出去，看见更大的世界。</p>
+<p class="phil-desc">提供国际游学、出境旅行、各国签证等服务；<br class="mobile-br">以全球视野，连接人与世界，<br class="mobile-br">让更多人走出去，看见更大的世界。</p>
 <div class="phil-action">查看服务 ↗</div>
 </a>
 
