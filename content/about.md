@@ -11,7 +11,7 @@ disableShare: true
 
 <div class="contact-container">
 <div class="contact-header">
-<p>欢迎通过以下方式和我建立连接</p>
+<p>欢迎在这里找到我</p>
 </div>
 
 <!-- 二维码卡片区 -->
