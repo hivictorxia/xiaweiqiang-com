@@ -7,7 +7,7 @@ hideMeta: true
 <div class="circle-hero-container">
 <div class="circle-border"></div>
 <div class="circle-text-box">
-归于至简，做到极致
+归于至简 · 做到极致
 </div>
 </div>
 
