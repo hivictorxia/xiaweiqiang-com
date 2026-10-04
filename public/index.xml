@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>夏卫强</title>
+    <title>首页 on 夏卫强</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on 夏卫强</description>
+    <description>Recent content in 首页 on 夏卫强</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <copyright>©夏卫强</copyright>
@@ -11,76 +11,134 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>商业的世界</title>
-      <link>http://localhost:1313/posts/zuopin-01/</link>
+      <link>http://localhost:1313/posts/the_world_of_business/</link>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zuopin-01/</guid>
+      <guid>http://localhost:1313/posts/the_world_of_business/</guid>
       <description>&lt;!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) --&gt;
 &lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
     &lt;div class=&#34;article-meta&#34;&gt;
-        &lt;span class=&#34;article-date&#34;&gt;10月15日&lt;/span&gt;
-        &lt;span class=&#34;article-tag&#34;&gt;商业的世界&lt;/span&gt;
+        &lt;span class=&#34;article-date&#34;&gt;2026年10月15日&lt;/span&gt;
     &lt;/div&gt;
-    &lt;h4 class=&#34;article-title&#34;&gt;巴菲特致股东的信 (1957) 研读：在不确定的市场中寻找安全边际&lt;/h4&gt;
+    &lt;h4 class=&#34;article-title&#34;&gt;巴菲特致股东的信&lt;/h4&gt;
     &lt;div class=&#34;article-action&#34;&gt;
         &lt;span&gt;前往公众号阅读&lt;/span&gt;
         &lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
     &lt;/div&gt;
 &lt;/a&gt;
-&lt;!-- 单篇文章卡片 --&gt;
-&lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接2&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
+&lt;!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) --&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
     &lt;div class=&#34;article-meta&#34;&gt;
-        &lt;span class=&#34;article-date&#34;&gt;09月28日&lt;/span&gt;
-        &lt;span class=&#34;article-tag&#34;&gt;商业的世界&lt;/span&gt;
+        &lt;span class=&#34;article-date&#34;&gt;2026年10月15日&lt;/span&gt;
     &lt;/div&gt;
-    &lt;h4 class=&#34;article-title&#34;&gt;海天国际与泸州老窖：从 ROE 拆解看优秀企业的护城河&lt;/h4&gt;
+    &lt;h4 class=&#34;article-title&#34;&gt;test&lt;/h4&gt;
     &lt;div class=&#34;article-action&#34;&gt;
         &lt;span&gt;前往公众号阅读&lt;/span&gt;
         &lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
     &lt;/div&gt;
+&lt;/a&gt;</description>
+    </item>
+    <item>
+      <title>世界的脉络</title>
+      <link>http://localhost:1313/posts/the_pulse_of_the_world/</link>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/the_pulse_of_the_world/</guid>
+      <description>&lt;h2 id=&#34;这是测试&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
+&lt;h2 id=&#34;这是测试-1&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
+&lt;h2 id=&#34;这是测试-2&#34;&gt;这是测试&lt;/h2&gt;
+&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
+&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
+&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
+&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>体验</title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description>&lt;style&gt;
+.post-header { display: none !important; }
+&lt;/style&gt;
+&lt;div class=&#34;service-showcase&#34;&gt;
+&lt;div class=&#34;service-header&#34;&gt;
+&lt;h2&gt;体验世界&lt;/h2&gt;
+&lt;p&gt;关于我去过的地方、遇见的人和经历的事；&lt;br&gt;
+也关于我正在经历、观察与思考的这个世界。&lt;/p&gt;
+&lt;/div&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/6Qavu5Iu5Clq3rK-nnQJYQ&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
+&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-01-17&lt;/span&gt;&lt;/div&gt;
+&lt;h4 class=&#34;article-title&#34;&gt;神殿之舞，我不懂艺术&lt;/h4&gt;
+&lt;div class=&#34;article-action&#34;&gt;
+&lt;span&gt;前往公众号阅读&lt;/span&gt;
+&lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/GwjTJwH0FvhaVmB_-Y_wQg&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
+&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-01-03&lt;/span&gt;&lt;/div&gt;
+&lt;h4 class=&#34;article-title&#34;&gt;查拉图斯特拉如是说&lt;/h4&gt;
+&lt;div class=&#34;article-action&#34;&gt;
+&lt;span&gt;前往公众号阅读&lt;/span&gt;
+&lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 60px; margin-bottom: 40px; text-align: center;&#34;&gt;
+&lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
+和我联系
+&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
+&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
+&lt;/svg&gt;
 &lt;/a&gt;
 &lt;/div&gt;</description>
     </item>
     <item>
-      <title>世界的脉络</title>
-      <link>http://localhost:1313/posts/zuopin-02/</link>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zuopin-02/</guid>
-      <description>&lt;h2 id=&#34;这是测试&#34;&gt;这是测试&lt;/h2&gt;
-&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
-&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
-&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
-&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
-&lt;h2 id=&#34;这是测试-1&#34;&gt;这是测试&lt;/h2&gt;
-&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
-&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
-&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
-&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
-&lt;h2 id=&#34;这是测试-2&#34;&gt;这是测试&lt;/h2&gt;
-&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
-&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
-&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
-&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>秩序·原则</title>
-      <link>http://localhost:1313/posts/zhixu-01/</link>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zhixu-01/</guid>
-      <description>&lt;h2 id=&#34;这是测试&#34;&gt;这是测试&lt;/h2&gt;
-&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
-&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
-&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
-&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
-&lt;h2 id=&#34;这是测试-1&#34;&gt;这是测试&lt;/h2&gt;
-&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
-&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
-&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
-&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;
-&lt;h2 id=&#34;这是测试-2&#34;&gt;这是测试&lt;/h2&gt;
-&lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
-&lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;
-&lt;p&gt;申请英国私校的孩子越来越多，但是不少学生和家长都存在一定的误区，就是英国私校想要一个各方面都十分优秀的孩子，甚至是完美的孩子。然而William却不这么认为，他认为学校是在寻找有潜力的人。&lt;strong&gt;英国私校不想要一个各方面都很优秀的完美候选人&lt;/strong&gt;，因为那太不现实了，他们只想要一个真正想去那里的、有潜力的、可塑造的人。&lt;/p&gt;
-&lt;p&gt;相较于&lt;strong&gt;美高&lt;/strong&gt;和国内的&lt;strong&gt;国际学校&lt;/strong&gt;，&lt;strong&gt;英国私校&lt;/strong&gt;的优势在于他们同样能提供世界上最好的教育。&lt;/p&gt;</description>
+      <title>创作</title>
+      <link>http://localhost:1313/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/create/</guid>
+      <description>&lt;style&gt;
+.post-header { display: none !important; }
+&lt;/style&gt;
+&lt;div class=&#34;service-showcase&#34;&gt;
+&lt;div class=&#34;service-header&#34;&gt;
+&lt;h2&gt;理解世界&lt;/h2&gt;
+&lt;p&gt;这里有「商业的世界」，也有「世界的脉络」；&lt;br&gt;
+理解商业与财富，也从世界的脉络里寻找答案。&lt;/p&gt;
+&lt;/div&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/微信文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
+&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-10-02&lt;/span&gt;&lt;/div&gt;
+&lt;h4 class=&#34;article-title&#34;&gt;商业的世界&lt;/h4&gt;
+&lt;div class=&#34;article-action&#34;&gt;
+&lt;span&gt;前往专栏阅读&lt;/span&gt;
+&lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/微信文章链接2&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
+&lt;div class=&#34;article-meta&#34;&gt;&lt;span class=&#34;article-date&#34;&gt;2026-10-09&lt;/span&gt;&lt;/div&gt;
+&lt;h4 class=&#34;article-title&#34;&gt;世界的脉络&lt;/h4&gt;
+&lt;div class=&#34;article-action&#34;&gt;
+&lt;span&gt;前往专栏阅读&lt;/span&gt;
+&lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
+&lt;/div&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style=&#34;margin-top: 60px; margin-bottom: 40px; text-align: center;&#34;&gt;
+&lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
+和我联系
+&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
+&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
+&lt;/svg&gt;
+&lt;/a&gt;
+&lt;/div&gt;</description>
     </item>
     <item>
       <title>服务</title>
@@ -89,13 +147,14 @@
       <guid>http://localhost:1313/services/</guid>
       <description>&lt;!-- 专属隐身魔法：仅在这个页面隐藏原生的默认标题 --&gt;
 &lt;style&gt;
-    .post-header { display: none !important; }
+.post-header { display: none !important; }
 &lt;/style&gt;
 &lt;div class=&#34;service-showcase&#34;&gt;
 &lt;!-- 头部服务理念 --&gt;
 &lt;div class=&#34;service-header&#34;&gt;
-&lt;h2&gt;把对世界的探索，变成具体的交付。&lt;/h2&gt;
-&lt;p&gt;所有的国际游学与出境服务，都建立在专业的规划、真实的体验与全球视角的认知之上。&lt;/p&gt;
+&lt;h2&gt;连接世界&lt;/h2&gt;
+&lt;p&gt;提供国际游学、国际出行、各国签证等服务；&lt;br&gt;
+以全球视野，连接人与世界，让更多人走出去，看见更大的世界。&lt;/p&gt;
 &lt;/div&gt;
 &lt;!-- 三大核心服务卡片 --&gt;
 &lt;div class=&#34;service-cards-container&#34;&gt;
@@ -103,27 +162,34 @@
 &lt;div class=&#34;service-card&#34;&gt;
 &lt;div class=&#34;card-icon&#34;&gt;🎓&lt;/div&gt;
 &lt;h3&gt;国际游学&lt;/h3&gt;
-&lt;h4 class=&#34;sub-title&#34;&gt;不仅是行走，更是认知的破圈&lt;/h4&gt;
-&lt;p&gt;为青少年及终身学习者定制的海外研学项目。深度参访顶尖名校与前沿企业，在真实的跨文化环境中，培养全球化视野与独立思考能力。&lt;/p&gt;
-&lt;a href=&#34;https://mp.weixin.qq.com/s/你的游学文章链接&#34; target=&#34;_blank&#34; class=&#34;service-action&#34;&gt;查看游学理念与案例 ↗&lt;/a&gt;
+&lt;h4 class=&#34;sub-title&#34;&gt;将世界作为课堂&lt;/h4&gt;
+&lt;p&gt;面向青少年提供国际游学项目。走进当地学校，体验不同的教育方式；走进城市与人文，感受不同的文化与生活；在真实的跨文化环境中学习、交流与成长。&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 卡片 2：出境旅游 --&gt;
+&lt;!-- 卡片 2：国际出行 --&gt;
 &lt;div class=&#34;service-card&#34;&gt;
 &lt;div class=&#34;card-icon&#34;&gt;🌍&lt;/div&gt;
-&lt;h3&gt;定制出境游&lt;/h3&gt;
-&lt;h4 class=&#34;sub-title&#34;&gt;在有限的时间，经历无限的风景&lt;/h4&gt;
-&lt;p&gt;告别千篇一律的行程。为你提供深度的目的地规划、稀缺资源对接与全程无忧保障，将每一次出行变成一场高质量的生命体验。&lt;/p&gt;
-&lt;a href=&#34;https://mp.weixin.qq.com/s/你的旅游文章链接&#34; target=&#34;_blank&#34; class=&#34;service-action&#34;&gt;阅读我的旅行主张 ↗&lt;/a&gt;
+&lt;h3&gt;国际出行&lt;/h3&gt;
+&lt;h4 class=&#34;sub-title&#34;&gt;从出发，到抵达&lt;/h4&gt;
+&lt;p&gt;提供商务考察、海外地接、机票、保险等国际出行服务，为不同的出境需求提供支持，让每一次出发都更加从容。&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 卡片 3：各国签证 --&gt;
+&lt;!-- 卡片 3：签证服务 --&gt;
 &lt;div class=&#34;service-card&#34;&gt;
 &lt;div class=&#34;card-icon&#34;&gt;🛂&lt;/div&gt;
-&lt;h3&gt;全球签证&lt;/h3&gt;
-&lt;h4 class=&#34;sub-title&#34;&gt;专业的履历包装，打破地理边界&lt;/h4&gt;
-&lt;p&gt;基于对各国领馆政策的深度洞察，提供专业、高效的签证代办与拒签翻案咨询。用最严谨的材料逻辑，助你获得探索世界的通行证。&lt;/p&gt;
-&lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;service-action&#34;&gt;一对一签证咨询 ↗&lt;/a&gt;
+&lt;h3&gt;签证服务&lt;/h3&gt;
+&lt;h4 class=&#34;sub-title&#34;&gt;让出发更简单&lt;/h4&gt;
+&lt;p&gt;提供全球签证办理与咨询服务。根据不同国家的签证政策与个人情况，提供专业、规范的签证服务，让出发少一些障碍，多一些确定。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- 底部极简且醒目的“和我联系”按钮 --&gt;
+&lt;div style=&#34;margin-top: 80px; margin-bottom: 60px; text-align: center;&#34;&gt;
+&lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
+和我联系
+&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
+&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
+&lt;/svg&gt;
+&lt;/a&gt;
 &lt;/div&gt;</description>
     </item>
     <item>
@@ -132,17 +198,14 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;style&gt;
-/* 隐藏主题默认的标题区块 */
 .post-header { display: none !important; }
 &lt;/style&gt;
 &lt;div class=&#34;contact-container&#34;&gt;
-&lt;!-- 1. 顶部引导语 --&gt;
 &lt;div class=&#34;contact-header&#34;&gt;
-&lt;p&gt;欢迎通过以下方式与我联系&lt;/p&gt;
+&lt;p&gt;欢迎通过以下方式和我建立连接&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 2. 二维码双栏卡片 (微信私域 + 选流平台) --&gt;
+&lt;!-- 二维码卡片区 --&gt;
 &lt;div class=&#34;qr-cards-grid&#34;&gt;
-&lt;!-- 微信个人号/客服 --&gt;
 &lt;div class=&#34;qr-card&#34;&gt;
 &lt;div class=&#34;qr-image-wrapper&#34;&gt;
 &lt;img src=&#34;http://localhost:1313/images/wechat.jpg&#34; alt=&#34;微信二维码&#34;&gt;
@@ -151,7 +214,6 @@
 &lt;p class=&#34;qr-desc&#34;&gt;建立联系 / 业务咨询&lt;/p&gt;
 &lt;div class=&#34;qr-tag&#34;&gt;推荐直接沟通 ↗&lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- 微信公众号 --&gt;
 &lt;div class=&#34;qr-card&#34;&gt;
 &lt;div class=&#34;qr-image-wrapper&#34;&gt;
 &lt;img src=&#34;http://localhost:1313/images/gzh.jpg&#34; alt=&#34;公众号二维码&#34;&gt;
@@ -161,7 +223,7 @@
 &lt;div class=&#34;qr-tag&#34;&gt;阅读最新长文 ↗&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- 3. 多平台与邮箱极简名片区 --&gt;
+&lt;!-- 邮箱极简名片 --&gt;
 &lt;div class=&#34;contact-methods-card&#34;&gt;
 &lt;div class=&#34;method-item&#34;&gt;
 &lt;span class=&#34;method-label&#34;&gt;✉️ 电子邮箱&lt;/span&gt;

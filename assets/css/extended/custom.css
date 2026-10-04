@@ -1,5 +1,5 @@
 /* =========================================
-   全局字体与颜色基础设置
+   1. 全局基础排版
    ========================================= */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
@@ -49,25 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-
-
 /* =========================================
-   极致净化网页底部
-   ========================================= */
-.footer {
-    font-size: 0 !important;
-}
-.footer span:first-child {
-    font-size: 14px;
-}
-.footer span:not(:first-child) {
-    display: none !important;
-}
-
-
-
-/* =========================================
-   极简暗色导航栏
+   2. 界面元素净化 (导航、页脚、元数据)
    ========================================= */
 .header {
     background-color: #314964 !important;
@@ -101,136 +84,159 @@ h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF !important;
 }
 
+.footer {
+    font-size: 0 !important;
+}
 
+.footer span:first-child {
+    font-size: 14px;
+}
 
-/* =========================================
-   列表页（如“作品”、“服务”）巨型色块标题 (全屏贴边版)
-   ========================================= */
-
-/* 1. 隐藏顶部类别 */
-.list .page-header {
+.footer span:not(:first-child) {
     display: none !important;
 }
 
-/* 2. 内层标题文字：同款流体大字与纯白显示 */
-.list .page-header h1 {
-    color: #ffffff !important;
-    font-weight: 800 !important;
-    font-size: clamp(32px, 5vw, 52px) !important;
-    margin: 0 !important;           /* 清除默认边距，保证绝对垂直居中 */
-    letter-spacing: 2px;
+.paginav, .post-meta {
+    display: none !important;
 }
-
-
 
 /* =========================================
-   智能换行控制 (仅在手机端生效)
+   3. 文章标题强制居中引擎
    ========================================= */
-
-/* 1. 默认在电脑大屏上，隐藏这个换行符，保持单行显示 */
-.mobile-br {
-    display: none;
+.post-header {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-bottom: 50px !important;
 }
 
-/* 2. 当屏幕宽度小于 768px（手机端）时，唤醒换行符 */
-@media (max-width: 768px) {
-    .mobile-br {
-        display: block; /* 触发换行 */
-    }
-}
-
-
-
-/* =========================================
-   微信公众号文章引流目录 (Archive Index)
-   ========================================= */
-
-.wechat-archive {
-    margin-top: 60px;
-    border-top: 1px solid #eaeaea;
-    padding-top: 40px;
-}
-
-/* 年份标题 */
-.archive-year {
-    font-size: 24px !important;
-    font-weight: 800;
+h1.post-title, .post-title {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: clamp(26px, 4vw, 36px) !important;
+    font-weight: 700;
     color: #1a1a1a;
-    margin-bottom: 30px !important;
-    margin-top: 0 !important;
-    letter-spacing: 1px;
+    line-height: 1.6;
+    margin: 0 0 15px 0 !important;
+    display: flex;
+    justify-content: center;
 }
 
-/* 文章卡片本体：极简的白底细边框，响应式布局 */
-.wechat-article-card {
+/* =========================================
+   4. 首页：圆圈截断组件
+   ========================================= */
+.circle-hero-container {
+    position: relative;
     display: flex;
-    flex-direction: column;
-    padding: 25px 30px;
-    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    margin: 20px 0 40px 0;
+    overflow: hidden;
+}
+
+.circle-border {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 1.5px solid #314964;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.circle-text-box {
+    position: relative;
+    z-index: 2;
+    background-color: #f5f5f5;
+    font-size: 22px;
+    font-weight: 500;
+    color: #314964;
+    letter-spacing: 4px;
+    text-align: center;
+    white-space: nowrap;
+    width: 460px;
+    padding: 15px 0;
+}
+
+/* =========================================
+   5. 首页：哲理导航卡片
+   ========================================= */
+.home-philosophy-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+}
+
+.phil-card {
     background-color: #ffffff;
     border: 1px solid #eaeaea;
     border-radius: 12px;
+    padding: 45px 50px;
     text-decoration: none !important;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    column-gap: 50px;
+    row-gap: 15px;
 }
 
-/* 鼠标悬停时的顶级交互反馈 */
-.wechat-article-card:hover {
+.phil-card:hover {
     border-color: #314964;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
-    transform: translateX(5px); /* 悬停时整个卡片微微向右滑动，邀请点击 */
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    transform: translateY(-5px);
 }
 
-/* 顶部元数据：日期与标签 */
-.article-meta {
-    display: flex;
-    gap: 15px;
-    font-size: 13px;
-    color: #888888;
-    margin-bottom: 12px;
-    font-weight: 500;
-    letter-spacing: 1px;
+.phil-title {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    font-size: 14px !important;
+    color: #888888 !important;
+    letter-spacing: 2px;
+    margin: 0 !important;
+    font-weight: 600;
 }
 
-.article-tag {
-    color: #314964; /* 标签使用主色调 */
-}
-
-/* 文章真实标题 */
-.wechat-article-card .article-title {
-    font-size: 18px !important;
+.phil-lead {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    font-size: 20px;
     font-weight: 700;
-    color: #2c2c2c;
-    margin: 0 0 20px 0 !important;
-    line-height: 1.5;
-    transition: color 0.3s ease;
-}
-
-.wechat-article-card:hover .article-title {
     color: #314964;
+    line-height: 1.6;
+    margin: 10px 0 0 0 !important;
 }
 
-/* 底部操作区：前往公众号阅读 */
-.article-action {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-size: 14px;
+.phil-desc {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.8;
+    margin: 0 0 25px 0 !important;
+}
+
+.phil-action {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    font-size: 13px;
     font-weight: 600;
     color: #aaaaaa;
     transition: color 0.3s ease;
+    align-self: end;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 15px;
 }
 
-.wechat-article-card:hover .article-action {
+.phil-card:hover .phil-action {
     color: #314964;
 }
 
-
-
 /* =========================================
-   服务导览页 (Service Showcase)
+   6. 服务页：三大核心服务卡片 (宽体横向排版)
    ========================================= */
-
 .service-showcase {
     max-width: 900px;
     margin: 0 auto;
@@ -255,11 +261,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.8;
 }
 
-
-/* =========================================
-   三大核心服务卡片 (宽体横向排版)
-   ========================================= */
-
 /* 1. 卡片容器：强制单列，不论电脑还是手机都是一行一个 */
 .service-cards-container {
     display: grid;
@@ -274,7 +275,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 12px;
     padding: 40px;
     transition: all 0.3s ease;
-    
     display: grid;
     /* 左列固定 65px 给图标，右列自动填满剩余空间给文字 */
     grid-template-columns: 65px 1fr;
@@ -290,18 +290,15 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-5px);
 }
 
-/* 3. 卡片内部元素精确定位 (无需修改 HTML) */
-
-/* 图标：固定在第1列，纵向跨越所有文字行 */
+/* 3. 卡片内部元素精确定位 */
 .card-icon {
     grid-column: 1 / 2;
     grid-row: 1 / -1; 
-    font-size: 48px; /* 图标放大，撑起左侧气场 */
+    font-size: 48px; 
     margin: 0;
-    margin-top: 5px; /* 微微下移，与右侧标题对齐 */
+    margin-top: 5px; 
 }
 
-/* 标题、副标题、正文、按钮：强制全部放入第2列 */
 .service-card h3 {
     grid-column: 2 / 3;
     font-size: 22px !important;
@@ -343,285 +340,77 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: underline;
 }
 
-/* 4. 手机端极致体验微调 */
-@media (max-width: 768px) {
-    .service-card {
-        padding: 30px 20px;
-        grid-template-columns: 45px 1fr; /* 手机屏幕较窄，缩小左侧图标区域 */
-        column-gap: 20px; /* 缩短图文间距 */
-    }
-    .card-icon {
-        font-size: 36px; /* 手机端图标按比例缩小 */
-        margin-top: 2px;
-    }
-}
-
-
-
 /* =========================================
-   文章列表 (创作) 与服务卡片 100% 同款排版
+   7. 创作/体验页：单篇文章引流卡片
    ========================================= */
-
-/* 1. 将文章卡片改造为左图右文的网格布局 */
-.post-entry {
-    background-color: #ffffff !important;
-    border: 1px solid #eaeaea;
-    border-radius: 12px;
-    padding: 40px;            
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-    box-shadow: none;         
-    position: relative;
-    
-    /* 引入和服务卡片一模一样的 Grid 布局 */
-    display: grid !important;
-    grid-template-columns: 65px 1fr;
-    column-gap: 30px;
-    align-items: start;
-}
-
-/* 2. 同款高级悬停浮动 */
-.post-entry:hover {
-    border-color: #314964;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    transform: translateY(-5px);
-}
-
-/* 3. 强制把标题、摘要、底部时间都挤到右边的第 2 列 */
-.post-entry .entry-header,
-.post-entry .entry-content,
-.post-entry .entry-footer {
-    grid-column: 2 / 3;
-}
-
-/* 文字细节统一 */
-.post-entry .entry-header h2 {
-    font-size: 22px !important;
-    color: #314964 !important;
-    margin: 0 0 12px 0 !important;
-    font-weight: 700;
-}
-.post-entry .entry-content {
-    font-size: 15px;
-    color: #555555;
-    line-height: 1.7;
-    margin-bottom: 15px;
-}
-.post-entry .entry-footer {
-    font-size: 13px;
-    color: #888888;
-    border-top: 1px solid #f0f0f0;
-    padding-top: 15px;
-    margin-top: 10px;
-}
-
-/* =========================================
-   神奇魔法：为不同的文章自动注入专属图标
-   ========================================= */
-
-/* 默认生成一个放置在第 1 列的图标 */
-.post-entry::before {
-    content: "📝";             /* 默认图标（如果你写了新文章，默认显示这个） */
-    grid-column: 1 / 2;
-    grid-row: 1 / -1;         /* 纵向跨越整个卡片 */
-    font-size: 48px;
-    margin-top: 5px;
-    display: block;
-}
-
-/* 如果文章标题包含“商业的世界”，自动替换为公文包图标 */
-.post-entry:has(a[aria-label*="商业的世界"])::before {
-    content: "🪙";
-}
-
-/* 如果文章标题包含“世界的脉络”，自动替换为地球图标 */
-.post-entry:has(a[aria-label*="世界的脉络"])::before {
-    content: "🌍";
-}
-
-/* =========================================
-   手机端同款响应式缩小适配
-   ========================================= */
-@media (max-width: 768px) {
-    .post-entry {
-        grid-template-columns: 45px 1fr;
-        column-gap: 20px;
-        padding: 30px 20px;
-    }
-    .post-entry::before {
-        font-size: 36px;
-    }
-}
-
-
-
-/* =========================================
-   首页：三大哲理导航卡片 (宽体横向排版)
-   ========================================= */
-
-/* 1. 强制容器单列，并缩小总宽度以提升横向阅读舒适度 */
-.home-philosophy-cards {
-    display: grid;
-    grid-template-columns: 1fr; 
-    gap: 30px;
-    max-width: 900px; /* 宽屏卡片需要稍微收拢宽度，避免文字拉得太长 */
-    margin: 0 auto 60px auto;
-}
-
-/* 2. 卡片本体：使用高级网格实现“左引言、右业务”的精美排版 */
-.phil-card {
+.wechat-article-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 30px;
+    margin-bottom: 20px;
     background-color: #ffffff;
     border: 1px solid #eaeaea;
     border-radius: 12px;
-    padding: 45px 50px;
     text-decoration: none !important;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    position: relative;
-    top: 0;
-    
-    /* 内部布局：左列分配 280px，右列自动填满剩余空间 */
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    column-gap: 50px;
-    row-gap: 15px;
+    transition: all 0.3s ease;
 }
 
-.phil-card:hover {
+.wechat-article-card:hover {
     border-color: #314964;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    top: -5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transform: translateY(-4px);
 }
 
-/* 3. 左侧区域 (栏目名 + 核心理念) */
-.phil-title {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    font-size: 14px !important;
-    color: #888888 !important;
-    letter-spacing: 2px;
-    margin: 0 !important;
-    font-weight: 600;
+.article-meta {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 13px;
+    color: #888888;
+    margin-bottom: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
-.phil-lead {
-    grid-column: 1 / 2;
-    grid-row: 2 / 4;
-    font-size: 20px;
+.wechat-article-card .article-title {
+    font-size: 19px !important;
     font-weight: 700;
+    color: #2c2c2c;
+    margin: 0 0 16px 0 !important;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.wechat-article-card:hover .article-title {
     color: #314964;
-    line-height: 1.6;
-    margin: 10px 0 0 0 !important;
 }
 
-/* 4. 右侧区域 (业务描述 + 跳转按钮) */
-.phil-desc {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    font-size: 15px;
-    color: #666666;
-    line-height: 1.8;
-    margin: 0 0 25px 0 !important;
-}
-
-.phil-action {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
+.article-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
     font-size: 13px;
     font-weight: 600;
     color: #aaaaaa;
     transition: color 0.3s ease;
-    align-self: end; /* 按钮永远沉底 */
-    border-top: 1px solid #f0f0f0;
-    padding-top: 15px;
 }
 
-.phil-card:hover .phil-action {
+.wechat-article-card:hover .article-action {
     color: #314964;
 }
 
-/* 5. 手机端响应式适配 (屏幕太窄时自动恢复为上下结构) */
-@media (max-width: 768px) {
-    .phil-card {
-        grid-template-columns: 1fr; /* 变成单列 */
-        padding: 35px 25px;
-    }
-    /* 取消所有的网格强制占位 */
-    .phil-title, .phil-lead, .phil-desc, .phil-action {
-        grid-column: 1 / 2;
-        grid-row: auto;
-    }
-    .phil-lead {
-        font-size: 18px;
-        margin: 5px 0 15px 0 !important;
-    }
-    .phil-desc {
-        margin: 0 0 25px 0 !important;
-    }
-}
-
-
-
 /* =========================================
-   底部“和我联系”高级胶囊按钮
+   8. 联系页：二维码与名片
    ========================================= */
-
-.contact-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    padding: 16px 45px;
-    font-size: 15px;
-    font-weight: 600;
-    letter-spacing: 4px;       /* 拉大字间距，增加呼吸感 */
-    color: #ffffff !important; /* 默认白字 */
-    background-color: #314964; /* 默认深蓝底色 */
-    border: 1px solid #314964;
-    border-radius: 50px;       /* 完美的半圆角，呼应顶部圆圈 */
-    text-decoration: none !important;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-/* 顶级悬停交互：背景变白，文字变蓝，浮起并产生阴影 */
-.contact-btn:hover {
-    background-color: #ffffff;
-    color: #314964 !important;
-    box-shadow: 0 15px 30px rgba(49, 73, 100, 0.15);
-    transform: translateY(-4px);
-}
-
-/* 箭头专属动画 */
-.contact-arrow {
-    transition: transform 0.3s ease;
-}
-
-/* 鼠标悬停时，箭头微微向右移动，产生“邀请点击”的心理暗示 */
-.contact-btn:hover .contact-arrow {
-    transform: translateX(6px);
-}
-
-
-
-/* =========================================
-   彻底隐藏文章底部的线性导航 (较新/较旧文章)
-   ========================================= */
-.paginav {
-    display: none !important;
-}
-
-
-
-/* =========================================
-   联系页面 (Contact / About) 专属高定排版
-   ========================================= */
-
 .contact-container {
     max-width: 800px;
     margin: 20px auto 80px auto;
     padding: 0 10px;
 }
 
-/* 顶部引导文本 */
 .contact-header {
     text-align: center;
     margin-bottom: 50px;
@@ -640,7 +429,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.8;
 }
 
-/* 二维码双栏网格 */
 .qr-cards-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -648,7 +436,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
 }
 
-/* 二维码单个卡片 */
 .qr-card {
     background: #ffffff;
     border: 1px solid #eaeaea;
@@ -664,7 +451,6 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-5px);
 }
 
-/* 二维码图片容器 */
 .qr-image-wrapper {
     width: 160px;
     height: 160px;
@@ -680,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     object-fit: contain;
     border-radius: 6px;
-    margin: 0 !important; /* 清除默认 Markdown 图片间距 */
+    margin: 0 !important;
 }
 
 .qr-card h3 {
@@ -706,26 +492,23 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20px;
 }
 
-
-
-/* 联系页面、邮箱横条名片 (居中排版) */
 .contact-methods-card {
     background: #ffffff;
     border: 1px solid #eaeaea;
     border-radius: 16px;
     padding: 25px 35px;
     display: flex;
-    justify-content: center; /* 核心：让所有子项在容器中水平居中 */
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 40px;               /* 增大项与项之间的距离，视觉更好看 */
+    gap: 40px;
     text-align: center;
 }
 
 .method-item {
     display: flex;
     flex-direction: column;
-    align-items: center;     /* 核心：让文字和标签在自身区块内部居中 */
+    align-items: center;
     gap: 6px;
 }
 
@@ -748,117 +531,104 @@ a.method-value:hover {
     text-decoration: underline;
 }
 
-/* 手机端响应式适配 */
-@media (max-width: 768px) {
-    .qr-cards-grid {
-        grid-template-columns: 1fr; 
-        gap: 20px;
-    }
-    .contact-methods-card {
-        flex-direction: column;
-        align-items: center;      /* <--- 改成 center，强制手机端纵向居中 */
-        justify-content: center;
-        padding: 25px 20px;
-    }
-}
-
-
-
-
 /* =========================================
-   文章标题与元数据居中排版 (终极强制版)
+   9. 全局引流按钮
    ========================================= */
-
-/* 1. 将整个头部容器变成强制居中的纵向弹性盒子 */
-.post-header {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    margin-bottom: 50px !important;
-}
-
-/* 2. 确保标题本身占满宽度，配合容器实现绝对居中 */
-h1.post-title, .post-title {
-    width: 100% !important;
-    text-align: center !important;
-    font-size: clamp(26px, 4vw, 36px) !important;
-    font-weight: 700;
-    color: #1a1a1a;
-    line-height: 1.6;
-    margin: 0 0 15px 0 !important;
-    display: flex;
-    justify-content: center;
-}
-
-/* 3. 底部元数据完美居中 */
-.post-meta {
-    width: 100%;
-    justify-content: center !important;
-    font-size: 14px;
-    color: #888888;
-}
-
-
-
-/* =========================================
-   圆圈与文字底框 (双端单行完美截断)（归于至简，做到极致。）
-   ========================================= */
-
-/* 1. 容器：保证绝对居中且不产生横向滚动条 */
-.circle-hero-container {
-    position: relative;
-    display: flex;
+.contact-btn {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 380px;
-    margin: 20px 0 40px 0;
-    overflow: hidden;
-}
-
-/* 2. 背后圆圈：电脑端标准尺寸 (350px) */
-.circle-border {
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    border: 1.5px solid #314964;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-/* 3. 文字色块：电脑端霸气截断 */
-.circle-text-box {
-    position: relative;
-    z-index: 2;
-    background-color: #f5f5f5; /* 注意：请保持和网站底色完全一致，达到“隐形刀刃”的截断效果 */
-    font-size: 22px;
-    font-weight: 500;
-    color: #314964;
+    gap: 12px;
+    padding: 16px 45px;
+    font-size: 15px;
+    font-weight: 600;
     letter-spacing: 4px;
-    text-align: center;
-    
-    /* 核心魔法 1：强制单行，绝对不折行 */
-    white-space: nowrap; 
-    
-    /* 核心魔法 2：用绝对宽度(460px)取代 padding，完美包覆并截断 350px 的圆圈两边 */
-    width: 460px;
-    padding: 15px 0;
+    color: #ffffff !important;
+    background-color: #314964;
+    border: 1px solid #314964;
+    border-radius: 50px;
+    text-decoration: none !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-/* 4. 手机端智能等比缩放 (屏幕小于 768px 时生效) */
+.contact-btn:hover {
+    background-color: #ffffff;
+    color: #314964 !important;
+    box-shadow: 0 15px 30px rgba(49, 73, 100, 0.15);
+    transform: translateY(-4px);
+}
+
+.contact-arrow {
+    transition: transform 0.3s ease;
+}
+
+.contact-btn:hover .contact-arrow {
+    transform: translateX(6px);
+}
+
+/* =========================================
+   ⬇️ 手机端响应式防线 (统一管理) ⬇️
+   ========================================= */
 @media (max-width: 768px) {
+    /* 首页圆圈 */
     .circle-hero-container {
-        height: 320px; /* 容器适度变矮 */
+        height: 320px;
     }
+    
     .circle-border {
-        width: 280px;  /* 圆圈整体缩小到 280px */
+        width: 280px;
         height: 280px;
     }
+    
     .circle-text-box {
-        font-size: 18px; /* 字号微调 */
+        font-size: 18px;
         letter-spacing: 2px;
-        /* 核心魔法 3：色块宽度定为 320px，刚好完美截断 280px 的圆圈，且绝对不会撑爆手机屏幕导致换行！ */
-        width: 320px;  
+        width: 320px;
         padding: 12px 0;
+    }
+    
+    /* 首页卡片 */
+    .phil-card {
+        grid-template-columns: 1fr;
+        padding: 35px 25px;
+    }
+    
+    .phil-title, .phil-lead, .phil-desc, .phil-action {
+        grid-column: 1 / 2;
+        grid-row: auto;
+    }
+    
+    .phil-lead {
+        font-size: 18px;
+        margin: 5px 0 15px 0 !important;
+    }
+    
+    .phil-desc {
+        margin: 0 0 25px 0 !important;
+    }
+
+    /* 服务页卡片 (适配左右 Grid 结构) */
+    .service-card {
+        padding: 30px 20px;
+        grid-template-columns: 45px 1fr;
+        column-gap: 20px;
+    }
+    
+    .card-icon {
+        font-size: 36px;
+        margin-top: 2px;
+    }
+
+    /* 联系页 */
+    .qr-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .contact-methods-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 20px;
     }
 }

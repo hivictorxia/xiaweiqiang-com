@@ -7,16 +7,16 @@ comments: false
 
 <!-- 专属隐身魔法：仅在这个页面隐藏原生的默认标题 -->
 <style>
-    .post-header { display: none !important; }
+.post-header { display: none !important; }
 </style>
-
 
 <div class="service-showcase">
 
 <!-- 头部服务理念 -->
 <div class="service-header">
-<h2>把对世界的探索，变成具体的交付。</h2>
-<p>所有的国际游学与出境服务，都建立在专业的规划、真实的体验与全球视角的认知之上。</p>
+<h2>连接世界</h2>
+<p>提供国际游学、国际出行、各国签证等服务；<br>
+以全球视野，连接人与世界，让更多人走出去，看见更大的世界。</p>
 </div>
 
 <!-- 三大核心服务卡片 -->
@@ -26,28 +26,36 @@ comments: false
 <div class="service-card">
 <div class="card-icon">🎓</div>
 <h3>国际游学</h3>
-<h4 class="sub-title">不仅是行走，更是认知的破圈</h4>
-<p>为青少年及终身学习者定制的海外研学项目。深度参访顶尖名校与前沿企业，在真实的跨文化环境中，培养全球化视野与独立思考能力。</p>
-<a href="https://mp.weixin.qq.com/s/你的游学文章链接" target="_blank" class="service-action">查看游学理念与案例 ↗</a>
+<h4 class="sub-title">将世界作为课堂</h4>
+<p>面向青少年提供国际游学项目。走进当地学校，体验不同的教育方式；走进城市与人文，感受不同的文化与生活；在真实的跨文化环境中学习、交流与成长。</p>
 </div>
 
-<!-- 卡片 2：出境旅游 -->
+<!-- 卡片 2：国际出行 -->
 <div class="service-card">
 <div class="card-icon">🌍</div>
-<h3>定制出境游</h3>
-<h4 class="sub-title">在有限的时间，经历无限的风景</h4>
-<p>告别千篇一律的行程。为你提供深度的目的地规划、稀缺资源对接与全程无忧保障，将每一次出行变成一场高质量的生命体验。</p>
-<a href="https://mp.weixin.qq.com/s/你的旅游文章链接" target="_blank" class="service-action">阅读我的旅行主张 ↗</a>
+<h3>国际出行</h3>
+<h4 class="sub-title">从出发，到抵达</h4>
+<p>提供商务考察、海外地接、机票、保险等国际出行服务，为不同的出境需求提供支持，让每一次出发都更加从容。</p>
 </div>
 
-<!-- 卡片 3：各国签证 -->
+<!-- 卡片 3：签证服务 -->
 <div class="service-card">
 <div class="card-icon">🛂</div>
-<h3>全球签证</h3>
-<h4 class="sub-title">专业的履历包装，打破地理边界</h4>
-<p>基于对各国领馆政策的深度洞察，提供专业、高效的签证代办与拒签翻案咨询。用最严谨的材料逻辑，助你获得探索世界的通行证。</p>
-<a href="/about/" class="service-action">一对一签证咨询 ↗</a>
+<h3>签证服务</h3>
+<h4 class="sub-title">让出发更简单</h4>
+<p>提供全球签证办理与咨询服务。根据不同国家的签证政策与个人情况，提供专业、规范的签证服务，让出发少一些障碍，多一些确定。</p>
 </div>
 
 </div>
+</div>
+
+<!-- 底部极简且醒目的“和我联系”按钮 -->
+<div style="margin-top: 80px; margin-bottom: 60px; text-align: center;">
+<a href="/about/" class="contact-btn">
+和我联系
+<svg class="contact-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<line x1="5" y1="12" x2="19" y2="12"></line>
+<polyline points="12 5 19 12 12 19"></polyline>
+</svg>
+</a>
 </div>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>创作 on 夏卫强</title>
+    <title>Youwei on 夏卫强</title>
     <link>http://localhost:1313/categories/youwei/</link>
-    <description>Recent content in 创作 on 夏卫强</description>
+    <description>Recent content in Youwei on 夏卫强</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <copyright>©夏卫强</copyright>
@@ -11,40 +11,37 @@
     <atom:link href="http://localhost:1313/categories/youwei/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>商业的世界</title>
-      <link>http://localhost:1313/posts/zuopin-01/</link>
+      <link>http://localhost:1313/posts/the_world_of_business/</link>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zuopin-01/</guid>
+      <guid>http://localhost:1313/posts/the_world_of_business/</guid>
       <description>&lt;!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) --&gt;
 &lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
     &lt;div class=&#34;article-meta&#34;&gt;
-        &lt;span class=&#34;article-date&#34;&gt;10月15日&lt;/span&gt;
-        &lt;span class=&#34;article-tag&#34;&gt;商业的世界&lt;/span&gt;
+        &lt;span class=&#34;article-date&#34;&gt;2026年10月15日&lt;/span&gt;
     &lt;/div&gt;
-    &lt;h4 class=&#34;article-title&#34;&gt;巴菲特致股东的信 (1957) 研读：在不确定的市场中寻找安全边际&lt;/h4&gt;
+    &lt;h4 class=&#34;article-title&#34;&gt;巴菲特致股东的信&lt;/h4&gt;
     &lt;div class=&#34;article-action&#34;&gt;
         &lt;span&gt;前往公众号阅读&lt;/span&gt;
         &lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
     &lt;/div&gt;
 &lt;/a&gt;
-&lt;!-- 单篇文章卡片 --&gt;
-&lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接2&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
+&lt;!-- 单篇文章卡片 (链接替换为你的公众号文章真实链接) --&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/你的文章链接1&#34; target=&#34;_blank&#34; class=&#34;wechat-article-card&#34;&gt;
     &lt;div class=&#34;article-meta&#34;&gt;
-        &lt;span class=&#34;article-date&#34;&gt;09月28日&lt;/span&gt;
-        &lt;span class=&#34;article-tag&#34;&gt;商业的世界&lt;/span&gt;
+        &lt;span class=&#34;article-date&#34;&gt;2026年10月15日&lt;/span&gt;
     &lt;/div&gt;
-    &lt;h4 class=&#34;article-title&#34;&gt;海天国际与泸州老窖：从 ROE 拆解看优秀企业的护城河&lt;/h4&gt;
+    &lt;h4 class=&#34;article-title&#34;&gt;test&lt;/h4&gt;
     &lt;div class=&#34;article-action&#34;&gt;
         &lt;span&gt;前往公众号阅读&lt;/span&gt;
         &lt;svg width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M7 17L17 7M17 7H7M17 7V17&#34;/&gt;&lt;/svg&gt;
     &lt;/div&gt;
-&lt;/a&gt;
-&lt;/div&gt;</description>
+&lt;/a&gt;</description>
     </item>
     <item>
       <title>世界的脉络</title>
-      <link>http://localhost:1313/posts/zuopin-02/</link>
+      <link>http://localhost:1313/posts/the_pulse_of_the_world/</link>
       <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/zuopin-02/</guid>
+      <guid>http://localhost:1313/posts/the_pulse_of_the_world/</guid>
       <description>&lt;h2 id=&#34;这是测试&#34;&gt;这是测试&lt;/h2&gt;
 &lt;p&gt;随着美国政治局势的变化，还有一部分美初、美高家庭开始把目光转向英国，以至于英国私校和高校的中国申请者持续上涨。就连美本界一位知名顾问也于今年把孩子送往英国顶尖私校接受教育，在这位耶鲁精英爸看来，孩子如果能够在人生中接受&lt;strong&gt;中国基础教育、英国中学、美国本科教育&lt;/strong&gt;，则最接近他心目中的**“世界公民”教育**。&lt;/p&gt;
 &lt;p&gt;……Caterham的教学方法鼓励批判性思维和讨论，而不是死记硬背，这促使她转变了对学习的看法，不再觉得学习意味着无休止的考试，而是探索和理解的旅程。&lt;/p&gt;

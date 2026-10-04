@@ -10,36 +10,11 @@
     <lastBuildDate>Sun, 27 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>创作</title>
+      <title>Youwei</title>
       <link>http://localhost:1313/categories/youwei/</link>
       <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/youwei/</guid>
-      <description>&lt;!-- 创作页面的专属引导区 (自带完美呼吸间距) --&gt;
-&lt;div style=&#34;text-align: center; margin-top: 40px; margin-bottom: 60px;&#34;&gt;  
-&lt;h2 style=&#34;font-size: clamp(24px, 4vw, 32px); font-weight: 800; color: #1a1a1a; margin-bottom: 20px; border-bottom: none; padding-bottom: 0;&#34;&gt;
-记录思考与沉淀，从世界的脉络里寻找答案。
-&lt;/h2&gt;
-&lt;p style=&#34;font-size: 16px; color: #666666; line-height: 1.8;&#34;&gt;
-这里有「商业的世界」，也有「世界的脉络」。&lt;br&gt;
-用长期的阅读、写作与复盘，构建理解商业与财富的常识框架。
-&lt;/p&gt;
-&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>体验</title>
-      <link>http://localhost:1313/categories/about/</link>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/about/</guid>
-      <description>&lt;!-- 创作页面的专属引导区 (自带完美呼吸间距) --&gt;
-&lt;div style=&#34;text-align: center; margin-top: 40px; margin-bottom: 60px;&#34;&gt;  
-&lt;h2 style=&#34;font-size: clamp(24px, 4vw, 32px); font-weight: 800; color: #1a1a1a; margin-bottom: 20px; border-bottom: none; padding-bottom: 0;&#34;&gt;
-像一条河流
-&lt;/h2&gt;
-&lt;p style=&#34;font-size: 16px; color: #666666; line-height: 1.8;&#34;&gt;
-像河水一样流动&lt;br&gt;
-像石头一样滚动
-&lt;/p&gt;
-&lt;/div&gt;</description>
+      <description></description>
     </item>
   </channel>
 </rss>
