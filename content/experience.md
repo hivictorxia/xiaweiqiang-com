@@ -11,7 +11,7 @@ comments: false
 
 <div class="service-showcase">
 <div class="service-header">
-<h2>这里有我亲自体验世界的记录</h2>
+<h2>感受世界</h2>
 <p>关于我去过的地方、遇见的人和经历的事；<br>
 也关于我正在经历、观察与思考的这个世界。</p>
 </div>
