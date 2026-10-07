@@ -168,6 +168,10 @@
 &lt;div style=&#34;margin-top: 80px; margin-bottom: 60px; text-align: center;&#34;&gt;
 &lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
 和我联系
+&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
+&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
+&lt;/svg&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
