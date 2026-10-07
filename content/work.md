@@ -31,8 +31,8 @@ comments: false
 
 <!-- 卡片 2：真诚合作 -->
 <div class="principle-card">
-<div class="principle-meta">02｜真诚合作</div>
-<h3 class="principle-title">合作让彼此变得更好</h3>
+<div class="principle-meta">02｜共同创造</div>
+<h3 class="principle-title">一起把事情做得更好</h3>
 <p class="principle-desc">直接、清晰、真诚地沟通；<br>与人合作，也与人分享成果。</p>
 </div>
 
