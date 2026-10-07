@@ -28,11 +28,11 @@ hideMeta: true
 </a>
 
 <!-- 工作卡片 -->
-<a href="/services/" class="phil-card">
+<a href="/work/" class="phil-card">
 <h3 class="phil-title"><span class="phil-icon">💼</span> 工作</h3>
 <p class="phil-lead">工作、服务，<br>与这个世界建立连接；</p>
-<p class="phil-desc">提供国际游学、出境旅行、各国签证等服务；以全球视野，连接人与世界，让更多人走出去，看见更大的世界。</p>
-<div class="phil-action">查看服务 ↗</div>
+<p class="phil-desc">与人打交道，与现实相遇，做一些具体的事情；在连接中工作，在工作中参与这个世界。</p>
+<div class="phil-action">关于工作 ↗</div>
 </a>
 
 <!-- 体验卡片 -->

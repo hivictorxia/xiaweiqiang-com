@@ -235,7 +235,7 @@ h1.post-title, .post-title {
 }
 
 /* =========================================
-   6. 服务页：三大核心服务卡片 (宽体横向排版)
+   6. 工作页：原则展示区 (纯文字居中版)
    ========================================= */
 .service-showcase {
     max-width: 900px;
@@ -261,83 +261,56 @@ h1.post-title, .post-title {
     line-height: 1.8;
 }
 
-/* 1. 卡片容器：强制单列，不论电脑还是手机都是一行一个 */
-.service-cards-container {
+/* 原则卡片容器 */
+.principle-cards-container {
     display: grid;
-    grid-template-columns: 1fr; 
-    gap: 30px;
+    grid-template-columns: 1fr;
+    gap: 25px; /* 卡片之间的间距 */
 }
 
-/* 2. 独立卡片：采用高级的左图右文横向网格 */
-.service-card {
+/* 纯文字居中卡片本体 (完美复刻文章卡片的排版) */
+.principle-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 45px 30px;
     background-color: #ffffff;
     border: 1px solid #eaeaea;
     border-radius: 12px;
-    padding: 40px;
     transition: all 0.3s ease;
-    display: grid;
-    /* 左列固定 65px 给图标，右列自动填满剩余空间给文字 */
-    grid-template-columns: 65px 1fr;
-    /* 右侧内容自动分为 4 行（标题、副标题、正文、按钮） */
-    grid-template-rows: auto auto auto auto;
-    column-gap: 30px; /* 图标和文字之间的距离 */
-    align-items: start;
 }
 
-.service-card:hover {
+.principle-card:hover {
     border-color: #314964;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
-    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transform: translateY(-4px);
 }
 
-/* 3. 卡片内部元素精确定位 */
-.card-icon {
-    grid-column: 1 / 2;
-    grid-row: 1 / -1; 
-    font-size: 48px; 
-    margin: 0;
-    margin-top: 5px; 
-}
-
-.service-card h3 {
-    grid-column: 2 / 3;
-    font-size: 22px !important;
-    color: #314964;
-    margin: 0 0 8px 0 !important;
-}
-
-.service-card .sub-title {
-    grid-column: 2 / 3;
-    font-size: 14px !important;
+/* 顶部编号标签 */
+.principle-meta {
+    font-size: 16px;
     color: #888888;
-    font-weight: 500;
-    margin: 0 0 15px 0 !important;
-    border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
-.service-card p {
-    grid-column: 2 / 3;
+/* 核心原则标题 */
+.principle-title {
+    font-size: 18px !important;
+    font-weight: 700;
+    color: #314964;
+    margin: 0 0 16px 0 !important;
+    line-height: 1.5;
+}
+
+/* 原则详情描述 */
+.principle-desc {
     font-size: 15px;
     color: #555555;
-    line-height: 1.7;
-    margin-bottom: 25px;
-}
-
-.service-action {
-    grid-column: 2 / 3;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
-    color: #314964;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    align-self: start;
-}
-
-.service-action:hover {
-    color: #1a1a1a;
-    text-decoration: underline;
+    line-height: 1.8;
+    margin: 0 !important;
 }
 
 /* =========================================
@@ -377,7 +350,7 @@ h1.post-title, .post-title {
 .wechat-article-card .article-title {
     font-size: 19px !important;
     font-weight: 700;
-    color: #2c2c2c;
+    color: #314964;
     margin: 0 0 16px 0 !important;
     line-height: 1.5;
     transition: color 0.3s ease;
@@ -614,7 +587,7 @@ a.method-value:hover {
         margin: 0 0 25px 0 !important;
     }
 
-    /* 服务页卡片 (适配左右 Grid 结构) */
+    /* 工作展示页卡片 (适配左右 Grid 结构) */
     .service-card {
         padding: 30px 20px;
         grid-template-columns: 45px 1fr;

@@ -123,55 +123,53 @@
 &lt;/div&gt;</description>
     </item>
     <item>
-      <title>服务</title>
-      <link>http://localhost:1313/services/</link>
+      <title>工作</title>
+      <link>http://localhost:1313/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/</guid>
+      <guid>http://localhost:1313/work/</guid>
       <description>&lt;!-- 专属隐身魔法：仅在这个页面隐藏原生的默认标题 --&gt;
 &lt;style&gt;
 .post-header { display: none !important; }
 &lt;/style&gt;
 &lt;div class=&#34;service-showcase&#34;&gt;
-&lt;!-- 头部服务理念 --&gt;
+&lt;!-- 头部工作理念 --&gt;
 &lt;div class=&#34;service-header&#34;&gt;
 &lt;h2&gt;连接世界&lt;/h2&gt;
-&lt;p&gt;提供国际游学、出境旅行、各国签证等服务；&lt;br&gt;
-以全球视野，连接人与世界，让更多人走出去，看见更大的世界。&lt;/p&gt;
+&lt;p&gt;与现实相遇，做一些具体的事情；&lt;br&gt;
+在连接中工作，在工作中参与这个世界。&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 三大核心服务卡片 --&gt;
-&lt;div class=&#34;service-cards-container&#34;&gt;
-&lt;!-- 卡片 1：国际游学 --&gt;
-&lt;div class=&#34;service-card&#34;&gt;
-&lt;div class=&#34;card-icon&#34;&gt;🎓&lt;/div&gt;
-&lt;h3&gt;国际游学&lt;/h3&gt;
-&lt;h4 class=&#34;sub-title&#34;&gt;将世界作为课堂&lt;/h4&gt;
-&lt;p&gt;面向青少年提供国际游学项目。走进当地学校，体验不同的教育方式；走进城市与人文，感受不同的文化与生活；在真实的跨文化环境中学习、交流与成长。&lt;/p&gt;
+&lt;!-- 三大原则卡片 (纯文字居中版) --&gt;
+&lt;div class=&#34;principle-cards-container&#34;&gt;
+&lt;!-- 卡片 1：具体做事 --&gt;
+&lt;div class=&#34;principle-card&#34;&gt;
+&lt;div class=&#34;principle-meta&#34;&gt;01｜具体做事&lt;/div&gt;
+&lt;h3 class=&#34;principle-title&#34;&gt;世界由具体的事件构成&lt;/h3&gt;
+&lt;p class=&#34;principle-desc&#34;&gt;少一点空想，多一点行动；&lt;br&gt;面对现实，解决问题，把事情真正做出来。&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 卡片 2：出境旅行--&gt;
-&lt;div class=&#34;service-card&#34;&gt;
-&lt;div class=&#34;card-icon&#34;&gt;🌍&lt;/div&gt;
-&lt;h3&gt;出境旅行&lt;/h3&gt;
-&lt;h4 class=&#34;sub-title&#34;&gt;从出发，到抵达&lt;/h4&gt;
-&lt;p&gt;提供商务考察、海外地接、机票、保险等出境旅行相关服务，为不同的出境需求提供支持，让每一次出发都更加从容。&lt;/p&gt;
+&lt;!-- 卡片 2：真诚合作 --&gt;
+&lt;div class=&#34;principle-card&#34;&gt;
+&lt;div class=&#34;principle-meta&#34;&gt;02｜真诚合作&lt;/div&gt;
+&lt;h3 class=&#34;principle-title&#34;&gt;合作让彼此变得更好&lt;/h3&gt;
+&lt;p class=&#34;principle-desc&#34;&gt;很多事情，需要与人合作。&lt;br&gt;直接、清晰、真诚地沟通，与人合作，也与人分享成果。&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 卡片 3：签证服务 --&gt;
-&lt;div class=&#34;service-card&#34;&gt;
-&lt;div class=&#34;card-icon&#34;&gt;🛂&lt;/div&gt;
-&lt;h3&gt;签证服务&lt;/h3&gt;
-&lt;h4 class=&#34;sub-title&#34;&gt;让出发更简单&lt;/h4&gt;
-&lt;p&gt;提供全球签证办理与咨询服务。根据不同国家的签证政策与个人情况，提供专业、规范的签证服务，让出发少一些障碍，多一些确定。&lt;/p&gt;
+&lt;!-- 卡片 3：长期主义 --&gt;
+&lt;div class=&#34;principle-card&#34;&gt;
+&lt;div class=&#34;principle-meta&#34;&gt;03｜长期主义&lt;/div&gt;
+&lt;h3 class=&#34;principle-title&#34;&gt;把时间放在值得的事情上&lt;/h3&gt;
+&lt;p class=&#34;principle-desc&#34;&gt;少做，专注，把为数不多的事情做到极致。&lt;br&gt;一点一点积累，相信时间，也把自己交给时间。&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;!-- 底部业务补充与引导区 --&gt;
+&lt;div class=&#34;service-header&#34; style=&#34;margin-top: 80px; margin-bottom: 30px;&#34;&gt;
+&lt;p&gt;对了，我的工作与国际游学相关。&lt;br&gt;
+如果你想与我联系，可以从这里开始：&lt;/p&gt;
 &lt;/div&gt;
-&lt;!-- 底部极简且醒目的“和我联系”按钮 --&gt;
+&lt;!-- 底部“和我联系”按钮 --&gt;
 &lt;div style=&#34;margin-top: 80px; margin-bottom: 60px; text-align: center;&#34;&gt;
 &lt;a href=&#34;http://localhost:1313/about/&#34; class=&#34;contact-btn&#34;&gt;
 和我联系
-&lt;svg class=&#34;contact-arrow&#34; width=&#34;18&#34; height=&#34;18&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-&lt;line x1=&#34;5&#34; y1=&#34;12&#34; x2=&#34;19&#34; y2=&#34;12&#34;&gt;&lt;/line&gt;
-&lt;polyline points=&#34;12 5 19 12 12 19&#34;&gt;&lt;/polyline&gt;
-&lt;/svg&gt;
 &lt;/a&gt;
+&lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
     <item>
