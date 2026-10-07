@@ -33,14 +33,14 @@ comments: false
 <div class="principle-card">
 <div class="principle-meta">02｜真诚合作</div>
 <h3 class="principle-title">合作让彼此变得更好</h3>
-<p class="principle-desc">直接、清晰、真诚地沟通，<br>与人合作，也与人分享成果。</p>
+<p class="principle-desc">直接、清晰、真诚地沟通；<br>与人合作，也与人分享成果。</p>
 </div>
 
 <!-- 卡片 3：长期主义 -->
 <div class="principle-card">
 <div class="principle-meta">03｜长期主义</div>
 <h3 class="principle-title">把时间放在值得的事情上</h3>
-<p class="principle-desc">把为数不多的事情做到极致。<br>相信时间，也把自己交给时间。</p>
+<p class="principle-desc">把为数不多的事情做到极致；<br>相信时间，也把自己交给时间。</p>
 </div>
 
 </div>
