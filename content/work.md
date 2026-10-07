@@ -26,7 +26,7 @@ comments: false
 <div class="principle-card">
 <div class="principle-meta">01｜具体做事</div>
 <h3 class="principle-title">世界由具体的事件构成</h3>
-<p class="principle-desc">少一点空想，多一点行动；<br>面对现实，解决问题，把事情真正做出来。</p>
+<p class="principle-desc">行动起来，做具体的事；<br>面对现实，解决问题，把事情做好。</p>
 </div>
 
 <!-- 卡片 2：真诚合作 -->
